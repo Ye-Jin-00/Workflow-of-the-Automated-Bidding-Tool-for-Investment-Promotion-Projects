@@ -1,0 +1,30 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: bid-workflow
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+    default-property-inclusion: non_null
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 25MB
+
+logging:
+  level:
+    com.sincit.bid: INFO
+
+app:
+  data-dir: ${APP_DATA_DIR:./data}
+  token-secret: ${APP_TOKEN_SECRET:sincit-bid-workflow-demo-secret-2026}
+  token-expire-hours: ${APP_TOKEN_EXPIRE_HOURS:12}
+  ai:
+    provider: ${APP_AI_PROVIDER:local}
+    base-url: ${APP_AI_BASE_URL:https://api.deepseek.com}
+    model: ${APP_AI_MODEL:deepseek-chat}
+    api-key: ${APP_AI_API_KEY:}

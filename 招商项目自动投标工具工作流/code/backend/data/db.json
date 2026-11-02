@@ -1,0 +1,2539 @@
+{
+  "users" : [ {
+    "id" : "U001",
+    "username" : "admin",
+    "passwordHash" : "bc04b7b6c7ef089ea86a99ca9b33a599d71849fc8c5fbd23ab317ccb2696fcfe",
+    "salt" : "QKxXPStYVBTrAfhdIZCHlg==",
+    "displayName" : "admin",
+    "role" : "ADMIN",
+    "department" : "总经办",
+    "title" : "系统管理员",
+    "phone" : "13800000001",
+    "email" : "admin@sincit-demo.com",
+    "bio" : "演示账号：admin，用于体验对应角色的权限。",
+    "enabled" : true,
+    "tokenVersion" : 0,
+    "createdAt" : "2026-10-26 11:38:41",
+    "updatedAt" : "2026-10-26 11:38:41",
+    "notificationPrefs" : { }
+  }, {
+    "id" : "U002",
+    "username" : "manager",
+    "passwordHash" : "183db2ed0d682197ae01140dfed6080139dc55362b11765cfeeed255751f2d9d",
+    "salt" : "P6j8jvHQ70ohWeYPj66ASQ==",
+    "displayName" : "manager",
+    "role" : "BID_MANAGER",
+    "department" : "招商一部",
+    "title" : "高级投标经理",
+    "phone" : "13800000002",
+    "email" : "manager@sincit-demo.com",
+    "bio" : "演示账号：manager，用于体验对应角色的权限。",
+    "enabled" : true,
+    "tokenVersion" : 0,
+    "createdAt" : "2026-10-26 11:38:41",
+    "updatedAt" : "2026-10-26 11:38:41",
+    "notificationPrefs" : { }
+  }, {
+    "id" : "U003",
+    "username" : "reviewer",
+    "passwordHash" : "ed4391c885c17a4c3271524a90e3770f76d525b6deace74f27b2ed7558a24db7",
+    "salt" : "zdNsv/zClK2FTklQerwGew==",
+    "displayName" : "reviewer",
+    "role" : "REVIEWER",
+    "department" : "风控合规部",
+    "title" : "风控复核经理",
+    "phone" : "13800000003",
+    "email" : "reviewer@sincit-demo.com",
+    "bio" : "演示账号：reviewer，用于体验对应角色的权限。",
+    "enabled" : true,
+    "tokenVersion" : 0,
+    "createdAt" : "2026-10-26 11:38:41",
+    "updatedAt" : "2026-10-26 11:38:41",
+    "notificationPrefs" : { }
+  }, {
+    "id" : "U004",
+    "username" : "viewer",
+    "passwordHash" : "28c19999b9fd59cd7f7d8df7e435afdf1461db1132cc2ca885696ca7109b65f1",
+    "salt" : "zX6heBwqbCFKT6jDMEcPZA==",
+    "displayName" : "viewer",
+    "role" : "VIEWER",
+    "department" : "招商二部",
+    "title" : "招商观察员",
+    "phone" : "13800000004",
+    "email" : "viewer@sincit-demo.com",
+    "bio" : "演示账号：viewer，用于体验对应角色的权限。",
+    "enabled" : true,
+    "tokenVersion" : 0,
+    "createdAt" : "2026-10-26 11:38:41",
+    "updatedAt" : "2026-10-26 11:38:41",
+    "notificationPrefs" : { }
+  } ],
+  "projects" : [ {
+    "id" : "P1792985921891",
+    "code" : "BP20261026-001",
+    "name" : "电建中储泛悦城市广场 T2 写字楼招商代理服务",
+    "clientName" : "电建中储（南京）置业有限公司",
+    "carrierName" : "泛悦城市广场 T2",
+    "industry" : "商务服务/总部经济",
+    "source" : "政府推荐",
+    "ownerId" : "U002",
+    "ownerName" : "manager",
+    "department" : "招商一部",
+    "status" : "REVIEW_PENDING",
+    "deleted" : false,
+    "version" : 6,
+    "createdAt" : "2026-10-26 11:38:41",
+    "updatedAt" : "2026-10-26 11:38:42",
+    "createdBy" : "manager",
+    "deadline" : "2026-11-13 17:00:00",
+    "budgetAmount" : 480,
+    "bidAmount" : 441.60,
+    "depositAmount" : 10,
+    "projectBrief" : "项目位于鼓楼区小市北祥路，总建筑面积约 34 万㎡，其中 T2 写字楼 4.1 万㎡，2021 年 5 月入市。现需引入总部经济、商务服务、专业服务类企业，提升去化速度与租金水平，并要求与鼓楼区产业政策、国资资源形成协同。",
+    "tenderText" : "项目名称：电建中储泛悦城市广场 T2 写字楼招商代理服务\n招标人：电建中储（南京）置业有限公司\n预算金额：人民币480万元\n投标保证金：人民币10万元\n投标截止时间：2026年11月13日 17:00\n一、资格要求\n1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。\n4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。\n二、服务要求\n5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。\n6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。\n7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。\n三、商务要求\n8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。\n10. 报价须包含人工、渠道、活动执行、差旅与税费等全部费用。\n四、评标办法\n11. 采用综合评分法：价格分30分、技术分50分、商务分20分。\n12. 服务期12个月，核心团队须驻场服务，未经招标人同意不得更换。\n",
+    "profile" : {
+      "companyName" : "南京市行至集商业服务有限公司",
+      "registeredCapital" : 1000,
+      "establishedYear" : 2019,
+      "qualifications" : [ "房地产经纪机构备案", "招商运营服务能力", "ISO9001质量管理体系认证", "ISO14001环境管理体系认证", "ISO45001职业健康安全管理体系认证" ],
+      "creditLevel" : "AAA",
+      "similarProjectCount" : 6,
+      "similarProjectAmount" : 2600,
+      "teamSize" : 28,
+      "hasGovernmentClient" : true,
+      "bidBondAvailable" : true,
+      "blacklisted" : false,
+      "conflictsOfInterest" : false,
+      "financialStatus" : "盈利",
+      "notes" : "数据为演示口径，正式投标请以营业执照、资质证书及审计报告为准。"
+    },
+    "qualificationResult" : {
+      "passed" : true,
+      "conclusion" : "PASS",
+      "score" : 100,
+      "checkedAt" : "2026-10-26 11:38:41",
+      "checks" : [ {
+        "ruleCode" : "Q01",
+        "ruleName" : "注册资本",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "1000 万元",
+        "expectedValue" : "≥ 300 万元",
+        "message" : "通过：注册资本满足要求",
+        "weight" : 15,
+        "suggestion" : "注册资本满足要求"
+      }, {
+        "ruleCode" : "Q02",
+        "ruleName" : "成立年限",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "7 年",
+        "expectedValue" : "≥ 3 年",
+        "message" : "通过：成立年限满足要求",
+        "weight" : 10,
+        "suggestion" : "成立年限满足要求"
+      }, {
+        "ruleCode" : "Q03",
+        "ruleName" : "信用等级",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "AAA",
+        "expectedValue" : "不低于 AA",
+        "message" : "通过：信用等级满足要求",
+        "weight" : 10,
+        "suggestion" : "信用等级满足要求"
+      }, {
+        "ruleCode" : "Q04",
+        "ruleName" : "同类项目业绩",
+        "category" : "业绩能力",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "6 个（合同额 2600 万元）",
+        "expectedValue" : "≥ 2 个",
+        "message" : "通过：同类业绩数量满足要求",
+        "weight" : 20,
+        "suggestion" : "同类业绩数量满足要求"
+      }, {
+        "ruleCode" : "Q05",
+        "ruleName" : "核心资质/备案",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "招商运营、房地产经纪（共 5 项）",
+        "expectedValue" : "具备 招商运营|房地产经纪|产业园区运营",
+        "message" : "通过：资质/备案满足要求",
+        "weight" : 10,
+        "suggestion" : "资质/备案满足要求"
+      }, {
+        "ruleCode" : "Q06",
+        "ruleName" : "团队规模",
+        "category" : "团队能力",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "28 人",
+        "expectedValue" : "≥ 10 人",
+        "message" : "通过：团队规模满足要求",
+        "weight" : 5,
+        "suggestion" : "团队规模满足要求"
+      }, {
+        "ruleCode" : "Q07",
+        "ruleName" : "保证金能力",
+        "category" : "商务履约",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "可覆盖",
+        "expectedValue" : "可覆盖投标保证金",
+        "message" : "通过：保证金资金安排已落实",
+        "weight" : 5,
+        "suggestion" : "保证金资金安排已落实"
+      }, {
+        "ruleCode" : "Q08",
+        "ruleName" : "失信/黑名单",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无失信记录",
+        "expectedValue" : "无失信/黑名单记录",
+        "message" : "通过：信用记录正常",
+        "weight" : 15,
+        "suggestion" : "信用记录正常"
+      }, {
+        "ruleCode" : "Q09",
+        "ruleName" : "关联关系",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无关联关系",
+        "expectedValue" : "无利益冲突",
+        "message" : "通过：关联关系声明正常",
+        "weight" : 5,
+        "suggestion" : "关联关系声明正常"
+      }, {
+        "ruleCode" : "Q10",
+        "ruleName" : "投标准备时间",
+        "category" : "时间要求",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "18 天",
+        "expectedValue" : "≥ 3 天准备时间",
+        "message" : "通过：投标准备时间充足",
+        "weight" : 5,
+        "suggestion" : "投标准备时间充足"
+      } ],
+      "hardFailures" : [ ],
+      "warnings" : [ ],
+      "summary" : "资格预审通过，全部规则满足。"
+    },
+    "extraction" : {
+      "items" : [ {
+        "id" : "RQe41253d9",
+        "category" : "报价要求",
+        "title" : "项目预算/最高限价",
+        "content" : "本项目预算/最高限价为 480 万元，报价不得超过该上限。",
+        "mandatory" : true,
+        "source" : "南京）置业有限公司 预算金额：人民币480万元 投标保证金：人民币",
+        "confidence" : 0.95,
+        "confirmed" : false
+      }, {
+        "id" : "RQ18db9b11",
+        "category" : "商务条款",
+        "title" : "投标保证金",
+        "content" : "投标保证金金额为 10 万元，需在截止时间前足额缴纳。",
+        "mandatory" : true,
+        "source" : "：人民币480万元 投标保证金：人民币10万元 投标截止时间：20",
+        "confidence" : 0.92,
+        "confirmed" : false
+      }, {
+        "id" : "RQ175c8019",
+        "category" : "时间节点",
+        "title" : "投标截止时间",
+        "content" : "投标文件须于 2026-11-13 17:00 前递交，逾期不予受理。",
+        "mandatory" : true,
+        "source" : "金：人民币10万元 投标截止时间：2026年11月13日 17:00 一、资格要求 1.",
+        "confidence" : 0.93,
+        "confirmed" : false
+      }, {
+        "id" : "RQ096422fe",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQf69422ea",
+        "category" : "资格条件",
+        "title" : "资格条件要点 2",
+        "content" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "mandatory" : false,
+        "source" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ0da52855",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQf538b943",
+        "category" : "评标办法",
+        "title" : "评标办法要点 1",
+        "content" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "mandatory" : false,
+        "source" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ32c9f12f",
+        "category" : "商务条款",
+        "title" : "商务条款要点 1",
+        "content" : "投标保证金：人民币10万元",
+        "mandatory" : false,
+        "source" : "投标保证金：人民币10万元",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ19aa5fce",
+        "category" : "商务条款",
+        "title" : "商务条款要点 2",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ12824c77",
+        "category" : "商务条款",
+        "title" : "商务条款要点 3",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQa41c29e1",
+        "category" : "商务条款",
+        "title" : "商务条款要点 4",
+        "content" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "mandatory" : false,
+        "source" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQdd588f1a",
+        "category" : "技术需求",
+        "title" : "技术需求要点 1",
+        "content" : "项目名称：电建中储泛悦城市广场 T2 写字楼招商代理服务",
+        "mandatory" : false,
+        "source" : "项目名称：电建中储泛悦城市广场 T2 写字楼招商代理服务",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQc2c37878",
+        "category" : "技术需求",
+        "title" : "技术需求要点 2",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQeb4bd480",
+        "category" : "技术需求",
+        "title" : "技术需求要点 3",
+        "content" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "mandatory" : true,
+        "source" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ9184c556",
+        "category" : "技术需求",
+        "title" : "技术需求要点 4",
+        "content" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "mandatory" : false,
+        "source" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ6a0d0384",
+        "category" : "技术需求",
+        "title" : "技术需求要点 5",
+        "content" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "mandatory" : false,
+        "source" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ829473eb",
+        "category" : "时间节点",
+        "title" : "时间节点要点 1",
+        "content" : "投标截止时间：2026年11月13日 17:00",
+        "mandatory" : false,
+        "source" : "投标截止时间：2026年11月13日 17:00",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ898b8e95",
+        "category" : "时间节点",
+        "title" : "时间节点要点 2",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      } ],
+      "extractedAt" : "2026-10-26 11:38:41",
+      "source" : "RULE",
+      "charCount" : 557,
+      "summary" : "共抽取 18 项要素，其中硬性要求 10 项；预算已识别；截止时间已识别。",
+      "budgetAmount" : 480,
+      "depositAmount" : 10,
+      "deadline" : "2026-11-13 17:00:00",
+      "warnings" : [ ]
+    },
+    "matchReport" : {
+      "score" : 98,
+      "recommendation" : "强烈建议",
+      "dimensions" : [ {
+        "name" : "资质匹配",
+        "score" : 30,
+        "fullScore" : 30,
+        "comment" : "预审得分 100，不满足 0 项"
+      }, {
+        "name" : "业绩匹配",
+        "score" : 23,
+        "fullScore" : 25,
+        "comment" : "近三年同类项目 6 个"
+      }, {
+        "name" : "团队配置",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "可投入团队 28 人"
+      }, {
+        "name" : "本地资源",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "渠道、高校、商协会资源可直接复用"
+      }, {
+        "name" : "价格空间",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "预算 480 万元，具备服务成本空间"
+      } ],
+      "matched" : [ "近三年 6 个同类招商/运营项目业绩", "具备政府/国资项目服务经验，熟悉区域产业政策", "80+ 家中介合作机构、1500 名合作经纪人渠道网络", "20 所高校合作资源、100 余家商会协会资源", "注册资本：1000 万元", "成立年限：7 年", "信用等级：AAA", "同类项目业绩：6 个（合同额 2600 万元）", "核心资质/备案：招商运营、房地产经纪（共 5 项）", "失信/黑名单：无失信记录", "关联关系：无关联关系", "投标准备时间：18 天", "具备 5 项资质/备案，包括 房地产经纪机构备案、招商运营服务能力、ISO9001质量管理体系认证" ],
+      "gaps" : [ ],
+      "summary" : "综合匹配得分 98 分，投标建议：强烈建议。优势项 13 条，需补强 0 条。",
+      "generatedAt" : "2026-10-26 11:38:41"
+    },
+    "pricingPlan" : {
+      "budgetAmount" : 480,
+      "costItems" : [ {
+        "name" : "人力成本",
+        "amount" : 10.80,
+        "remark" : "90 人天 × 1200 元/人天"
+      }, {
+        "name" : "分包/渠道成本",
+        "amount" : 24.00,
+        "remark" : "预算的 5.0%"
+      }, {
+        "name" : "差旅与尽调",
+        "amount" : 9.60,
+        "remark" : "预算的 2.0%"
+      }, {
+        "name" : "其他直接费用",
+        "amount" : 4.80,
+        "remark" : "按预算 1% 且不低于 2 万元"
+      }, {
+        "name" : "税费",
+        "amount" : 2.95,
+        "remark" : "成本的 6.0%"
+      } ],
+      "totalCost" : 52.15,
+      "floorPrice" : 58.41,
+      "ceilingPrice" : 460.80,
+      "recommendedPrice" : 441.60,
+      "grossMarginRate" : 88.19,
+      "priceScore" : 27.27,
+      "winProbability" : 92.47,
+      "strategy" : "均衡报价",
+      "riskNotes" : [ ],
+      "personDays" : 90,
+      "dailyRate" : 1200,
+      "subcontractRate" : 0.05,
+      "travelRate" : 0.02,
+      "taxRate" : 0.06,
+      "discountRate" : 0.08,
+      "competitorCount" : 3,
+      "calculatedAt" : "2026-10-26 11:38:41"
+    },
+    "aiDraft" : {
+      "outline" : [ {
+        "title" : "项目理解与总体思路",
+        "points" : [ "产业定位同质化、渠道碎片化、签约与落地脱节是本项目三大难点", "总体思路：产业研究先行、渠道组织制胜、运营服务兜底", "编制侧重：总部经济企业招引、国有企业资源协同、去化节奏控制" ]
+      }, {
+        "title" : "产业定位与招商目标",
+        "points" : [ "目标企业分为链主及区域总部、高成长科技企业、专业服务机构三类", "合作期内去化 60% 以上，引入不少于 3 家关键企业", "建立一企一档，跟踪选址周期与决策链" ]
+      }, {
+        "title" : "招商策略与渠道组合",
+        "points" : [ "产业链招商、渠道招商、活动招商、以商招商、政策协同、数字招商", "80+ 中介机构、1500 名经纪人、100 余家商协会资源", "线索 48 小时响应、72 小时带看、每周复盘" ]
+      }, {
+        "title" : "实施计划与团队配置",
+        "points" : [ "四阶段推进：筹备、启动、攻坚、运营", "项目总监 + 招商 + 渠道 + 运营 + 品牌 + 数据", "周报、月度经营分析、季度复盘" ]
+      }, {
+        "title" : "运营服务与去化保障",
+        "points" : [ "选址注册、政策申报、人才对接一站式落地", "悦集荟企业成长平台提升黏性", "全流程漏斗与重点客户升级机制" ]
+      }, {
+        "title" : "质量保障与风险控制",
+        "points" : [ "ISO 三体系过程控制", "去化、签约、入驻、满意度四维考核", "保密、合规与数据分级授权" ]
+      }, {
+        "title" : "资格与业绩响应",
+        "points" : [ "鼓楼国资参股、AAA 信用、ISO 三体系", "泛悦城市广场、铂丽大厦、仙林万达茂、中海滨江 U-LIVE 等案例", "覆盖商办、文旅商业与产业园区" ]
+      }, {
+        "title" : "硬性要求逐条响应",
+        "points" : [ "招标文件硬性条款逐条对应", "不满足项在风险提示中明示", "证明材料按资格文件清单归档" ]
+      } ],
+      "technicalProposal" : "一、项目理解与总体思路\n行至集对本项目的理解是：电建中储泛悦城市广场 T2 写字楼招商代理服务由电建中储（南京）置业有限公司发起，载体为泛悦城市广场 T2，产业方向聚焦商务服务/总部经济，招标预算约480 万元，投标截止时间为2026年11月13日。项目不仅要求完成空间去化，更要求在产业定位、企业招引、落地服务与区域品牌之间形成闭环。\n当前招商工作普遍面临三方面挑战：一是产业定位同质化，容易陷入“什么企业都招”的被动局面；二是渠道触达碎片化，中介、商协会、高校与政府资源之间缺少统一调度；三是签约与落地脱节，企业注册、政策申报、办公交付等环节衔接不畅，影响去化质量与口碑。\n基于上述判断，我方提出“产业研究先行、渠道组织制胜、运营服务兜底”的总体思路：以区域产业基础和载体禀赋确定 2—3 个主攻赛道，建立目标企业库；以行至集渠道网络与活动能力实现批量触达和精准转化；以企业成长服务体系保障“招得来、留得住、长得大”。\n本方案编制侧重：总部经济企业招引、国有企业资源协同、去化节奏控制；整体语气：专业、稳健。\n\n二、产业定位与招商目标\n（一）产业定位。围绕商务服务/总部经济，结合载体硬件条件与周边产业基础，建议将目标企业划分为“链主及区域总部、高成长科技企业、专业服务机构”三类，分别匹配不同的面积段、租金策略与政策工具，避免单一业态过度集中。\n（二）招商目标（建议值，最终以合同约定为准）。合作期内完成载体可招商面积的 60% 以上去化；引入不少于 3 家产业链关键企业或区域总部；形成不少于 2 个可复制的产业招商案例；企业注册率、实际入驻率与租金收缴率纳入月度考核。\n（三）目标企业画像。重点筛选符合区域产业导向、具备稳定现金流与扩张需求、且与现有产业链形成协同的企业，建立“一企一档”，持续跟踪其选址周期与决策链。\n\n三、招商策略与渠道组合\n（一）产业链招商。绘制产业链图谱，识别缺失环节与关键配套，围绕链主企业开展上下游定向招引，以“龙头+配套”的方式提升签约转化率与产业集聚度。\n（二）渠道招商。依托行至集80+ 家中介合作机构、1500 名合作经纪人，建立渠道分级管理与佣金结算机制；对渠道推荐项目实行 48 小时响应、72 小时带看、每周复盘，确保线索不流失。\n（三）活动招商。结合项目节点组织招商推介会、产业沙龙、企业开放日与线上直播看房，形成“月月有活动、季季有主题”的节奏；活动前明确邀约名单与转化目标，活动后 7 天内完成回访。\n（四）以商招商。通过已入驻企业、商协会与合作伙伴转介绍，降低获客成本；依托100 余家商会、协会及企业俱乐部扩展触达面。\n（五）政策协同。梳理区域产业扶持、人才、税收与装修补贴政策，形成“政策明白卡”，在谈判阶段同步给出落地成本测算，增强企业决策信心。\n（六）数字招商。建立线索管理系统，对线索来源、跟进阶段、带看次数、报价与签约概率进行可视化跟踪，用数据驱动周度策略调整。\n\n四、实施计划与团队配置\n（一）实施计划。筹备期（第 1—4 周）：完成产业研究、载体梳理、价格与政策工具包、渠道动员；启动期（第 5—8 周）：集中邀约与推介活动，形成首批意向客户；攻坚期（第 9—24 周）：重点客户一对一谈判，推动签约与注册落地；运营期（第 25—52 周）：持续去化、企业服务与案例沉淀。\n（二）团队配置。拟投入项目总监 1 名、招商经理 3 名、渠道经理 2 名、运营服务 2 名、品牌策划 1 名、数据分析 1 名，后台由公司渠道中心与产业研究中心提供支持。项目总监对结果负责，实行周报、月度经营分析与季度复盘机制。\n（三）协作机制。与招标人建立联合工作组，明确双方接口人、决策流程与例会制度；重大价格与条款调整须经双方书面确认，确保过程可追溯。\n\n五、运营服务与去化保障\n（一）企业落地服务。提供选址、注册、装修、政策申报、人才招聘对接等一站式服务，缩短企业从签约到投产的周期。\n（二）企业成长服务。依托行至集“悦集荟”企业成长平台，组织财务、法务、人力资源、市场拓展等主题沙龙，提升企业黏性与续租率。\n（三）运营品质保障。协同物业建立企业诉求响应机制，明确报修、投诉、活动的响应时限；定期开展企业满意度调查，将结果纳入运营考核。\n（四）去化保障。建立“线索—意向—带看—报价—签约—入驻”全流程漏斗，对连续两周无进展的客户启动升级处理；对重点客户提供定制化落地方案。\n\n六、质量保障与风险控制\n（一）质量体系。行至集已通过ISO9001 / ISO14001 / ISO45001 三体系认证，项目执行按照体系文件进行过程控制与记录管理。\n（二）考核机制。以去化面积、签约金额、入驻率、企业满意度为核心指标，按月考核、按季兑现，未达节点及时纠偏。\n（三）风险控制。重点防范去化不达预期、同质化竞争、价格体系失控、企业注册地与税收贡献不匹配、渠道飞单等风险，逐项制定应对措施与责任人。\n（四）合规与保密。严格遵守招标人保密要求，项目数据分级授权、留痕管理；所有对外宣传口径须经招标人确认。\n\n七、资格与业绩响应\n行至集为鼓楼国资参股企业，获评AAA 级信用企业，并通过ISO9001 / ISO14001 / ISO45001 三体系认证。公司核心业务涵盖项目咨询顾问、品牌策划推广、招商代理及运营、企业成长服务。\n近年服务案例包括电建中储泛悦城市广场、铂丽大厦、仙林万达茂、鼓楼中海滨江 U-LIVE、壹城数字经济创意园等项目，覆盖商办综合体、文旅商业与产业园区等多种载体类型。公司具备完整的招商代理、品牌运营与企业服务能力，可为本项目提供持续支撑。\n\n八、针对招标文件硬性要求的响应说明\n1. 本项目预算/最高限价为 480 万元，报价不得超过该上限。\n   响应：已纳入本方案第2节，并在资格文件/技术文件中提供对应说明与证明材料。\n2. 投标保证金金额为 10 万元，需在截止时间前足额缴纳。\n   响应：已纳入本方案第3节，并在资格文件/技术文件中提供对应说明与证明材料。\n3. 投标文件须于 2026-11-13 17:00 前递交，逾期不予受理。\n   响应：已纳入本方案第4节，并在资格文件/技术文件中提供对应说明与证明材料。\n4. 1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n   响应：已纳入本方案第5节，并在资格文件/技术文件中提供对应说明与证明材料。\n5. 2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n   响应：已纳入本方案第6节，并在资格文件/技术文件中提供对应说明与证明材料。\n6. 2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n   响应：已纳入本方案第7节，并在资格文件/技术文件中提供对应说明与证明材料。\n7. 8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n   响应：已纳入本方案第8节，并在资格文件/技术文件中提供对应说明与证明材料。\n8. 1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n   响应：已纳入本方案第8节，并在资格文件/技术文件中提供对应说明与证明材料。\n\n",
+      "commercialResponse" : "商务响应与报价说明\n1. 投标报价：建议报价 441.6 万元，最终以盖章报价表为准；报价包含人工、渠道、活动执行、差旅、税费等完成本项目服务所需的全部费用。\n2. 付款方式：建议按“合同签订后 30%、中期验收后 40%、服务期满验收合格后 30%”分期支付，具体以合同谈判结果为准。\n3. 服务期限：自合同签订之日起 12 个月，可根据去化进度协商延长。\n4. 服务承诺：关键节点未达成的，按合同约定承担整改与违约责任；项目团队核心成员未经招标人同意不随意更换。\n5. 增值服务：免费提供产业研究报告、政策汇编、招商推介会策划及企业服务活动。\n6. 成本说明：按当前测算，项目毛利率约 88.19%，我方将在保证交付质量的前提下控制成本。\n",
+      "qualificationResponse" : "资格响应\n1. 主体资格：行至集为依法注册的独立法人，具备承担本项目的能力。\n2. 信用记录：获评 AAA 级信用企业，无失信被执行、重大税收违法与政府采购严重违法记录。\n3. 资质认证：通过 ISO9001 质量管理体系、ISO14001 环境管理体系、ISO45001 职业健康安全管理体系认证。\n4. 同类业绩：近三年完成多个商办、文旅商业及产业园区招商代理/品牌运营项目，详见业绩证明材料。\n5. 团队能力：可投入具有产业研究、渠道组织、企业服务经验的专业团队，核心成员稳定。\n6. 关联关系：与招标人不存在可能影响公正性的关联关系，并出具无利益冲突承诺函。\n",
+      "riskNotes" : [ "未发现重大风险，仍建议复核报价口径、业绩证明有效期与授权委托书签署情况" ],
+      "provider" : "local-template",
+      "model" : "local-template-v1",
+      "promptVersion" : "bid-draft-v1.2",
+      "generatedAt" : "2026-10-26 11:38:41",
+      "degraded" : false,
+      "elapsedMs" : 3,
+      "warning" : "当前使用本地模板引擎生成，内容可人工编辑；如需大模型润色，请配置 app.ai.provider。"
+    },
+    "reviews" : [ ],
+    "attachments" : [ ],
+    "comments" : [ ],
+    "watcherIds" : [ ]
+  }, {
+    "id" : "P1792985922031",
+    "code" : "BP20261026-002",
+    "name" : "仙林万达茂文旅商业综合体招商运营服务",
+    "clientName" : "南京万达茂投资有限公司",
+    "carrierName" : "仙林万达茂",
+    "industry" : "文旅商业",
+    "source" : "公共资源交易平台",
+    "ownerId" : "U002",
+    "ownerName" : "manager",
+    "department" : "招商一部",
+    "status" : "REQUIREMENTS_EXTRACTED",
+    "deleted" : false,
+    "version" : 3,
+    "createdAt" : "2026-10-26 11:38:42",
+    "updatedAt" : "2026-10-26 11:38:42",
+    "createdBy" : "manager",
+    "deadline" : "2026-11-20 17:00:00",
+    "budgetAmount" : 860,
+    "depositAmount" : 17,
+    "projectBrief" : "项目位于仙林大道与守敬路交汇处，商业面积约 30 万㎡，包含万达茂商业、酒店与文旅业态。需完成文旅商业定位、品牌招商、开业筹备与持续运营，打造南京主城区文旅商业标杆。",
+    "tenderText" : "项目名称：仙林万达茂文旅商业综合体招商运营服务\n招标人：南京万达茂投资有限公司\n预算金额：人民币860万元\n投标保证金：人民币17万元\n投标截止时间：2026年11月20日 17:00\n一、资格要求\n1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。\n4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。\n二、服务要求\n5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。\n6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。\n7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。\n三、商务要求\n8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。\n10. 报价须包含人工、渠道、活动执行、差旅与税费等全部费用。\n四、评标办法\n11. 采用综合评分法：价格分30分、技术分50分、商务分20分。\n12. 服务期12个月，核心团队须驻场服务，未经招标人同意不得更换。\n",
+    "profile" : {
+      "companyName" : "南京市行至集商业服务有限公司",
+      "registeredCapital" : 1000,
+      "establishedYear" : 2019,
+      "qualifications" : [ "房地产经纪机构备案", "招商运营服务能力", "ISO9001质量管理体系认证", "ISO14001环境管理体系认证", "ISO45001职业健康安全管理体系认证" ],
+      "creditLevel" : "AAA",
+      "similarProjectCount" : 6,
+      "similarProjectAmount" : 2600,
+      "teamSize" : 28,
+      "hasGovernmentClient" : true,
+      "bidBondAvailable" : true,
+      "blacklisted" : false,
+      "conflictsOfInterest" : false,
+      "financialStatus" : "盈利",
+      "notes" : "数据为演示口径，正式投标请以营业执照、资质证书及审计报告为准。"
+    },
+    "qualificationResult" : {
+      "passed" : true,
+      "conclusion" : "PASS",
+      "score" : 100,
+      "checkedAt" : "2026-10-26 11:38:42",
+      "checks" : [ {
+        "ruleCode" : "Q01",
+        "ruleName" : "注册资本",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "1000 万元",
+        "expectedValue" : "≥ 300 万元",
+        "message" : "通过：注册资本满足要求",
+        "weight" : 15,
+        "suggestion" : "注册资本满足要求"
+      }, {
+        "ruleCode" : "Q02",
+        "ruleName" : "成立年限",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "7 年",
+        "expectedValue" : "≥ 3 年",
+        "message" : "通过：成立年限满足要求",
+        "weight" : 10,
+        "suggestion" : "成立年限满足要求"
+      }, {
+        "ruleCode" : "Q03",
+        "ruleName" : "信用等级",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "AAA",
+        "expectedValue" : "不低于 AA",
+        "message" : "通过：信用等级满足要求",
+        "weight" : 10,
+        "suggestion" : "信用等级满足要求"
+      }, {
+        "ruleCode" : "Q04",
+        "ruleName" : "同类项目业绩",
+        "category" : "业绩能力",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "6 个（合同额 2600 万元）",
+        "expectedValue" : "≥ 2 个",
+        "message" : "通过：同类业绩数量满足要求",
+        "weight" : 20,
+        "suggestion" : "同类业绩数量满足要求"
+      }, {
+        "ruleCode" : "Q05",
+        "ruleName" : "核心资质/备案",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "招商运营、房地产经纪（共 5 项）",
+        "expectedValue" : "具备 招商运营|房地产经纪|产业园区运营",
+        "message" : "通过：资质/备案满足要求",
+        "weight" : 10,
+        "suggestion" : "资质/备案满足要求"
+      }, {
+        "ruleCode" : "Q06",
+        "ruleName" : "团队规模",
+        "category" : "团队能力",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "28 人",
+        "expectedValue" : "≥ 10 人",
+        "message" : "通过：团队规模满足要求",
+        "weight" : 5,
+        "suggestion" : "团队规模满足要求"
+      }, {
+        "ruleCode" : "Q07",
+        "ruleName" : "保证金能力",
+        "category" : "商务履约",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "可覆盖",
+        "expectedValue" : "可覆盖投标保证金",
+        "message" : "通过：保证金资金安排已落实",
+        "weight" : 5,
+        "suggestion" : "保证金资金安排已落实"
+      }, {
+        "ruleCode" : "Q08",
+        "ruleName" : "失信/黑名单",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无失信记录",
+        "expectedValue" : "无失信/黑名单记录",
+        "message" : "通过：信用记录正常",
+        "weight" : 15,
+        "suggestion" : "信用记录正常"
+      }, {
+        "ruleCode" : "Q09",
+        "ruleName" : "关联关系",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无关联关系",
+        "expectedValue" : "无利益冲突",
+        "message" : "通过：关联关系声明正常",
+        "weight" : 5,
+        "suggestion" : "关联关系声明正常"
+      }, {
+        "ruleCode" : "Q10",
+        "ruleName" : "投标准备时间",
+        "category" : "时间要求",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "25 天",
+        "expectedValue" : "≥ 3 天准备时间",
+        "message" : "通过：投标准备时间充足",
+        "weight" : 5,
+        "suggestion" : "投标准备时间充足"
+      } ],
+      "hardFailures" : [ ],
+      "warnings" : [ ],
+      "summary" : "资格预审通过，全部规则满足。"
+    },
+    "extraction" : {
+      "items" : [ {
+        "id" : "RQ915e00aa",
+        "category" : "报价要求",
+        "title" : "项目预算/最高限价",
+        "content" : "本项目预算/最高限价为 860 万元，报价不得超过该上限。",
+        "mandatory" : true,
+        "source" : "万达茂投资有限公司 预算金额：人民币860万元 投标保证金：人民币",
+        "confidence" : 0.95,
+        "confirmed" : false
+      }, {
+        "id" : "RQff5194b8",
+        "category" : "商务条款",
+        "title" : "投标保证金",
+        "content" : "投标保证金金额为 17 万元，需在截止时间前足额缴纳。",
+        "mandatory" : true,
+        "source" : "：人民币860万元 投标保证金：人民币17万元 投标截止时间：20",
+        "confidence" : 0.92,
+        "confirmed" : false
+      }, {
+        "id" : "RQ48b64a1a",
+        "category" : "时间节点",
+        "title" : "投标截止时间",
+        "content" : "投标文件须于 2026-11-20 17:00 前递交，逾期不予受理。",
+        "mandatory" : true,
+        "source" : "金：人民币17万元 投标截止时间：2026年11月20日 17:00 一、资格要求 1.",
+        "confidence" : 0.93,
+        "confirmed" : false
+      }, {
+        "id" : "RQdcd62a56",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQd4a5f3a6",
+        "category" : "资格条件",
+        "title" : "资格条件要点 2",
+        "content" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "mandatory" : false,
+        "source" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQba0c3878",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQc09b0b8e",
+        "category" : "评标办法",
+        "title" : "评标办法要点 1",
+        "content" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "mandatory" : false,
+        "source" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ9c4f920d",
+        "category" : "商务条款",
+        "title" : "商务条款要点 1",
+        "content" : "投标保证金：人民币17万元",
+        "mandatory" : false,
+        "source" : "投标保证金：人民币17万元",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ56fcca7e",
+        "category" : "商务条款",
+        "title" : "商务条款要点 2",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQb03df62c",
+        "category" : "商务条款",
+        "title" : "商务条款要点 3",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ7a800abc",
+        "category" : "商务条款",
+        "title" : "商务条款要点 4",
+        "content" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "mandatory" : false,
+        "source" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ22837e66",
+        "category" : "技术需求",
+        "title" : "技术需求要点 1",
+        "content" : "项目名称：仙林万达茂文旅商业综合体招商运营服务",
+        "mandatory" : false,
+        "source" : "项目名称：仙林万达茂文旅商业综合体招商运营服务",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ058105be",
+        "category" : "技术需求",
+        "title" : "技术需求要点 2",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQdca77a55",
+        "category" : "技术需求",
+        "title" : "技术需求要点 3",
+        "content" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "mandatory" : true,
+        "source" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ31ff1ca4",
+        "category" : "技术需求",
+        "title" : "技术需求要点 4",
+        "content" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "mandatory" : false,
+        "source" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ908db2c2",
+        "category" : "技术需求",
+        "title" : "技术需求要点 5",
+        "content" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "mandatory" : false,
+        "source" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ97f56751",
+        "category" : "时间节点",
+        "title" : "时间节点要点 1",
+        "content" : "投标截止时间：2026年11月20日 17:00",
+        "mandatory" : false,
+        "source" : "投标截止时间：2026年11月20日 17:00",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ408d4680",
+        "category" : "时间节点",
+        "title" : "时间节点要点 2",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      } ],
+      "extractedAt" : "2026-10-26 11:38:42",
+      "source" : "RULE",
+      "charCount" : 549,
+      "summary" : "共抽取 18 项要素，其中硬性要求 10 项；预算已识别；截止时间已识别。",
+      "budgetAmount" : 860,
+      "depositAmount" : 17,
+      "deadline" : "2026-11-20 17:00:00",
+      "warnings" : [ ]
+    },
+    "reviews" : [ ],
+    "attachments" : [ ],
+    "comments" : [ ],
+    "watcherIds" : [ ]
+  }, {
+    "id" : "P1792985922076",
+    "code" : "BP20261026-003",
+    "name" : "鼓楼滨江 U-LIVE 商办载体产业招商服务",
+    "clientName" : "南京中海地产有限公司",
+    "carrierName" : "鼓楼滨江 U-LIVE",
+    "industry" : "商务服务/总部经济",
+    "source" : "渠道推荐",
+    "ownerId" : "U002",
+    "ownerName" : "manager",
+    "department" : "招商一部",
+    "status" : "QUALIFICATION_REJECTED",
+    "deleted" : false,
+    "version" : 2,
+    "createdAt" : "2026-10-26 11:38:42",
+    "updatedAt" : "2026-10-26 11:38:42",
+    "createdBy" : "manager",
+    "deadline" : "2026-11-07 17:00:00",
+    "budgetAmount" : 360,
+    "depositAmount" : 7,
+    "projectBrief" : "项目位于鼓楼区新兴路与复兴街交汇处东南，总建筑面积约 16 万㎡，为商办综合体。本次拟引入产业招商服务商，要求具备同类商办载体招商经验与产业资源。",
+    "tenderText" : "项目名称：鼓楼滨江 U-LIVE 商办载体产业招商服务\n招标人：南京中海地产有限公司\n预算金额：人民币360万元\n投标保证金：人民币7万元\n投标截止时间：2026年11月07日 17:00\n一、资格要求\n1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。\n4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。\n二、服务要求\n5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。\n6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。\n7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。\n三、商务要求\n8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。\n10. 报价须包含人工、渠道、活动执行、差旅与税费等全部费用。\n四、评标办法\n11. 采用综合评分法：价格分30分、技术分50分、商务分20分。\n12. 服务期12个月，核心团队须驻场服务，未经招标人同意不得更换。",
+    "profile" : {
+      "companyName" : "南京市行至集商业服务有限公司",
+      "registeredCapital" : 50,
+      "establishedYear" : 2019,
+      "qualifications" : [ "品牌策划服务" ],
+      "creditLevel" : "A",
+      "similarProjectCount" : 0,
+      "similarProjectAmount" : 0,
+      "teamSize" : 4,
+      "hasGovernmentClient" : true,
+      "bidBondAvailable" : false,
+      "blacklisted" : false,
+      "conflictsOfInterest" : false,
+      "financialStatus" : "盈利",
+      "notes" : "数据为演示口径，正式投标请以营业执照、资质证书及审计报告为准。"
+    },
+    "qualificationResult" : {
+      "passed" : false,
+      "conclusion" : "REJECT",
+      "score" : 35,
+      "checkedAt" : "2026-10-26 11:38:42",
+      "checks" : [ {
+        "ruleCode" : "Q01",
+        "ruleName" : "注册资本",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : false,
+        "actualValue" : "50 万元",
+        "expectedValue" : "≥ 300 万元",
+        "message" : "注册资本不足，建议联合体投标或调整标的",
+        "weight" : 15,
+        "suggestion" : "注册资本不足，建议联合体投标或调整标的"
+      }, {
+        "ruleCode" : "Q02",
+        "ruleName" : "成立年限",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "7 年",
+        "expectedValue" : "≥ 3 年",
+        "message" : "通过：成立年限满足要求",
+        "weight" : 10,
+        "suggestion" : "成立年限满足要求"
+      }, {
+        "ruleCode" : "Q03",
+        "ruleName" : "信用等级",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : false,
+        "actualValue" : "A",
+        "expectedValue" : "不低于 AA",
+        "message" : "信用等级不满足，需提供信用修复或补充担保",
+        "weight" : 10,
+        "suggestion" : "信用等级不满足，需提供信用修复或补充担保"
+      }, {
+        "ruleCode" : "Q04",
+        "ruleName" : "同类项目业绩",
+        "category" : "业绩能力",
+        "mandatory" : true,
+        "passed" : false,
+        "actualValue" : "0 个（合同额 0 万元）",
+        "expectedValue" : "≥ 2 个",
+        "message" : "同类业绩不足，建议补充联合体或分包业绩",
+        "weight" : 20,
+        "suggestion" : "同类业绩不足，建议补充联合体或分包业绩"
+      }, {
+        "ruleCode" : "Q05",
+        "ruleName" : "核心资质/备案",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : false,
+        "actualValue" : "（共 1 项）",
+        "expectedValue" : "具备 招商运营|房地产经纪|产业园区运营",
+        "message" : "缺少关键资质或备案，需补齐后再投标",
+        "weight" : 10,
+        "suggestion" : "缺少关键资质或备案，需补齐后再投标"
+      }, {
+        "ruleCode" : "Q06",
+        "ruleName" : "团队规模",
+        "category" : "团队能力",
+        "mandatory" : false,
+        "passed" : false,
+        "actualValue" : "4 人",
+        "expectedValue" : "≥ 10 人",
+        "message" : "团队配置偏少，需补充驻场人员",
+        "weight" : 5,
+        "suggestion" : "团队配置偏少，需补充驻场人员"
+      }, {
+        "ruleCode" : "Q07",
+        "ruleName" : "保证金能力",
+        "category" : "商务履约",
+        "mandatory" : false,
+        "passed" : false,
+        "actualValue" : "不足",
+        "expectedValue" : "可覆盖投标保证金",
+        "message" : "保证金资金未落实，需提前调度或申请保函",
+        "weight" : 5,
+        "suggestion" : "保证金资金未落实，需提前调度或申请保函"
+      }, {
+        "ruleCode" : "Q08",
+        "ruleName" : "失信/黑名单",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无失信记录",
+        "expectedValue" : "无失信/黑名单记录",
+        "message" : "通过：信用记录正常",
+        "weight" : 15,
+        "suggestion" : "信用记录正常"
+      }, {
+        "ruleCode" : "Q09",
+        "ruleName" : "关联关系",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无关联关系",
+        "expectedValue" : "无利益冲突",
+        "message" : "通过：关联关系声明正常",
+        "weight" : 5,
+        "suggestion" : "关联关系声明正常"
+      }, {
+        "ruleCode" : "Q10",
+        "ruleName" : "投标准备时间",
+        "category" : "时间要求",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "12 天",
+        "expectedValue" : "≥ 3 天准备时间",
+        "message" : "通过：投标准备时间充足",
+        "weight" : 5,
+        "suggestion" : "投标准备时间充足"
+      } ],
+      "hardFailures" : [ "注册资本：注册资本不足，建议联合体投标或调整标的", "信用等级：信用等级不满足，需提供信用修复或补充担保", "同类项目业绩：同类业绩不足，建议补充联合体或分包业绩", "核心资质/备案：缺少关键资质或备案，需补齐后再投标" ],
+      "warnings" : [ "团队规模：团队配置偏少，需补充驻场人员", "保证金能力：保证金资金未落实，需提前调度或申请保函" ],
+      "summary" : "资格预审未通过：4 项必填条件不满足，系统已自动驳回。"
+    },
+    "reviews" : [ ],
+    "attachments" : [ ],
+    "comments" : [ ],
+    "watcherIds" : [ ],
+    "rejectionReason" : "注册资本：注册资本不足，建议联合体投标或调整标的；信用等级：信用等级不满足，需提供信用修复或补充担保；同类项目业绩：同类业绩不足，建议补充联合体或分包业绩；核心资质/备案：缺少关键资质或备案，需补齐后再投标"
+  }, {
+    "id" : "P1792985922104",
+    "code" : "BP20261026-004",
+    "name" : "壹城数字经济创意园品牌顾问服务",
+    "clientName" : "南京壹城建设集团有限公司",
+    "carrierName" : "壹城数字经济创意园",
+    "industry" : "数字经济",
+    "source" : "客户委托",
+    "ownerId" : "U002",
+    "ownerName" : "manager",
+    "department" : "招商一部",
+    "status" : "ARCHIVED",
+    "deleted" : false,
+    "version" : 9,
+    "createdAt" : "2026-10-26 11:38:42",
+    "updatedAt" : "2026-10-26 11:38:42",
+    "createdBy" : "manager",
+    "deadline" : "2026-12-05 17:00:00",
+    "budgetAmount" : 320,
+    "bidAmount" : 294.40,
+    "depositAmount" : 6,
+    "projectBrief" : "项目位于秦淮区南部新城，总建筑面积约 11.8 万㎡，定位数字经济创意园区。需提供品牌定位、VI 体系、产业招商策略与年度品牌运营服务。",
+    "tenderText" : "项目名称：壹城数字经济创意园品牌顾问服务\n招标人：南京壹城建设集团有限公司\n预算金额：人民币320万元\n投标保证金：人民币6万元\n投标截止时间：2026年12月05日 17:00\n一、资格要求\n1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。\n4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。\n二、服务要求\n5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。\n6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。\n7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。\n三、商务要求\n8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。\n10. 报价须包含人工、渠道、活动执行、差旅与税费等全部费用。\n四、评标办法\n11. 采用综合评分法：价格分30分、技术分50分、商务分20分。\n12. 服务期12个月，核心团队须驻场服务，未经招标人同意不得更换。\n",
+    "profile" : {
+      "companyName" : "南京市行至集商业服务有限公司",
+      "registeredCapital" : 1000,
+      "establishedYear" : 2019,
+      "qualifications" : [ "房地产经纪机构备案", "招商运营服务能力", "ISO9001质量管理体系认证", "ISO14001环境管理体系认证", "ISO45001职业健康安全管理体系认证" ],
+      "creditLevel" : "AAA",
+      "similarProjectCount" : 6,
+      "similarProjectAmount" : 2600,
+      "teamSize" : 28,
+      "hasGovernmentClient" : true,
+      "bidBondAvailable" : true,
+      "blacklisted" : false,
+      "conflictsOfInterest" : false,
+      "financialStatus" : "盈利",
+      "notes" : "数据为演示口径，正式投标请以营业执照、资质证书及审计报告为准。"
+    },
+    "qualificationResult" : {
+      "passed" : true,
+      "conclusion" : "PASS",
+      "score" : 100,
+      "checkedAt" : "2026-10-26 11:38:42",
+      "checks" : [ {
+        "ruleCode" : "Q01",
+        "ruleName" : "注册资本",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "1000 万元",
+        "expectedValue" : "≥ 300 万元",
+        "message" : "通过：注册资本满足要求",
+        "weight" : 15,
+        "suggestion" : "注册资本满足要求"
+      }, {
+        "ruleCode" : "Q02",
+        "ruleName" : "成立年限",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "7 年",
+        "expectedValue" : "≥ 3 年",
+        "message" : "通过：成立年限满足要求",
+        "weight" : 10,
+        "suggestion" : "成立年限满足要求"
+      }, {
+        "ruleCode" : "Q03",
+        "ruleName" : "信用等级",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "AAA",
+        "expectedValue" : "不低于 AA",
+        "message" : "通过：信用等级满足要求",
+        "weight" : 10,
+        "suggestion" : "信用等级满足要求"
+      }, {
+        "ruleCode" : "Q04",
+        "ruleName" : "同类项目业绩",
+        "category" : "业绩能力",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "6 个（合同额 2600 万元）",
+        "expectedValue" : "≥ 2 个",
+        "message" : "通过：同类业绩数量满足要求",
+        "weight" : 20,
+        "suggestion" : "同类业绩数量满足要求"
+      }, {
+        "ruleCode" : "Q05",
+        "ruleName" : "核心资质/备案",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "招商运营、房地产经纪（共 5 项）",
+        "expectedValue" : "具备 招商运营|房地产经纪|产业园区运营",
+        "message" : "通过：资质/备案满足要求",
+        "weight" : 10,
+        "suggestion" : "资质/备案满足要求"
+      }, {
+        "ruleCode" : "Q06",
+        "ruleName" : "团队规模",
+        "category" : "团队能力",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "28 人",
+        "expectedValue" : "≥ 10 人",
+        "message" : "通过：团队规模满足要求",
+        "weight" : 5,
+        "suggestion" : "团队规模满足要求"
+      }, {
+        "ruleCode" : "Q07",
+        "ruleName" : "保证金能力",
+        "category" : "商务履约",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "可覆盖",
+        "expectedValue" : "可覆盖投标保证金",
+        "message" : "通过：保证金资金安排已落实",
+        "weight" : 5,
+        "suggestion" : "保证金资金安排已落实"
+      }, {
+        "ruleCode" : "Q08",
+        "ruleName" : "失信/黑名单",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无失信记录",
+        "expectedValue" : "无失信/黑名单记录",
+        "message" : "通过：信用记录正常",
+        "weight" : 15,
+        "suggestion" : "信用记录正常"
+      }, {
+        "ruleCode" : "Q09",
+        "ruleName" : "关联关系",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无关联关系",
+        "expectedValue" : "无利益冲突",
+        "message" : "通过：关联关系声明正常",
+        "weight" : 5,
+        "suggestion" : "关联关系声明正常"
+      }, {
+        "ruleCode" : "Q10",
+        "ruleName" : "投标准备时间",
+        "category" : "时间要求",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "40 天",
+        "expectedValue" : "≥ 3 天准备时间",
+        "message" : "通过：投标准备时间充足",
+        "weight" : 5,
+        "suggestion" : "投标准备时间充足"
+      } ],
+      "hardFailures" : [ ],
+      "warnings" : [ ],
+      "summary" : "资格预审通过，全部规则满足。"
+    },
+    "extraction" : {
+      "items" : [ {
+        "id" : "RQbababa87",
+        "category" : "报价要求",
+        "title" : "项目预算/最高限价",
+        "content" : "本项目预算/最高限价为 320 万元，报价不得超过该上限。",
+        "mandatory" : true,
+        "source" : "城建设集团有限公司 预算金额：人民币320万元 投标保证金：人民币",
+        "confidence" : 0.95,
+        "confirmed" : false
+      }, {
+        "id" : "RQ63b7c8cd",
+        "category" : "商务条款",
+        "title" : "投标保证金",
+        "content" : "投标保证金金额为 6 万元，需在截止时间前足额缴纳。",
+        "mandatory" : true,
+        "source" : "：人民币320万元 投标保证金：人民币6万元 投标截止时间：20",
+        "confidence" : 0.92,
+        "confirmed" : false
+      }, {
+        "id" : "RQ98869f27",
+        "category" : "时间节点",
+        "title" : "投标截止时间",
+        "content" : "投标文件须于 2026-12-05 17:00 前递交，逾期不予受理。",
+        "mandatory" : true,
+        "source" : "证金：人民币6万元 投标截止时间：2026年12月05日 17:00 一、资格要求 1.",
+        "confidence" : 0.93,
+        "confirmed" : false
+      }, {
+        "id" : "RQ9e1ebcb7",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ80903529",
+        "category" : "资格条件",
+        "title" : "资格条件要点 2",
+        "content" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "mandatory" : false,
+        "source" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQbfeefdcf",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQf2a72000",
+        "category" : "评标办法",
+        "title" : "评标办法要点 1",
+        "content" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "mandatory" : false,
+        "source" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ93279b1b",
+        "category" : "商务条款",
+        "title" : "商务条款要点 1",
+        "content" : "投标保证金：人民币6万元",
+        "mandatory" : false,
+        "source" : "投标保证金：人民币6万元",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ566a8bc6",
+        "category" : "商务条款",
+        "title" : "商务条款要点 2",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ4a2a3a03",
+        "category" : "商务条款",
+        "title" : "商务条款要点 3",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ24d938c8",
+        "category" : "商务条款",
+        "title" : "商务条款要点 4",
+        "content" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "mandatory" : false,
+        "source" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ2dc172df",
+        "category" : "技术需求",
+        "title" : "技术需求要点 1",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ151fe27f",
+        "category" : "技术需求",
+        "title" : "技术需求要点 2",
+        "content" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "mandatory" : true,
+        "source" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQfccf547f",
+        "category" : "技术需求",
+        "title" : "技术需求要点 3",
+        "content" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "mandatory" : false,
+        "source" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ5708ddf3",
+        "category" : "技术需求",
+        "title" : "技术需求要点 4",
+        "content" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "mandatory" : false,
+        "source" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ765c28ad",
+        "category" : "技术需求",
+        "title" : "技术需求要点 5",
+        "content" : "7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。",
+        "mandatory" : false,
+        "source" : "7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ1a62e2de",
+        "category" : "时间节点",
+        "title" : "时间节点要点 1",
+        "content" : "投标截止时间：2026年12月05日 17:00",
+        "mandatory" : false,
+        "source" : "投标截止时间：2026年12月05日 17:00",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ677d52c0",
+        "category" : "时间节点",
+        "title" : "时间节点要点 2",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      } ],
+      "extractedAt" : "2026-10-26 11:38:42",
+      "source" : "RULE",
+      "charCount" : 546,
+      "summary" : "共抽取 18 项要素，其中硬性要求 10 项；预算已识别；截止时间已识别。",
+      "budgetAmount" : 320,
+      "depositAmount" : 6,
+      "deadline" : "2026-12-05 17:00:00",
+      "warnings" : [ ]
+    },
+    "matchReport" : {
+      "score" : 98,
+      "recommendation" : "强烈建议",
+      "dimensions" : [ {
+        "name" : "资质匹配",
+        "score" : 30,
+        "fullScore" : 30,
+        "comment" : "预审得分 100，不满足 0 项"
+      }, {
+        "name" : "业绩匹配",
+        "score" : 23,
+        "fullScore" : 25,
+        "comment" : "近三年同类项目 6 个"
+      }, {
+        "name" : "团队配置",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "可投入团队 28 人"
+      }, {
+        "name" : "本地资源",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "渠道、高校、商协会资源可直接复用"
+      }, {
+        "name" : "价格空间",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "预算 320 万元，具备服务成本空间"
+      } ],
+      "matched" : [ "近三年 6 个同类招商/运营项目业绩", "具备政府/国资项目服务经验，熟悉区域产业政策", "80+ 家中介合作机构、1500 名合作经纪人渠道网络", "20 所高校合作资源、100 余家商会协会资源", "注册资本：1000 万元", "成立年限：7 年", "信用等级：AAA", "同类项目业绩：6 个（合同额 2600 万元）", "核心资质/备案：招商运营、房地产经纪（共 5 项）", "失信/黑名单：无失信记录", "关联关系：无关联关系", "投标准备时间：40 天", "具备 5 项资质/备案，包括 房地产经纪机构备案、招商运营服务能力、ISO9001质量管理体系认证" ],
+      "gaps" : [ ],
+      "summary" : "综合匹配得分 98 分，投标建议：强烈建议。优势项 13 条，需补强 0 条。",
+      "generatedAt" : "2026-10-26 11:38:42"
+    },
+    "pricingPlan" : {
+      "budgetAmount" : 320,
+      "costItems" : [ {
+        "name" : "人力成本",
+        "amount" : 9.10,
+        "remark" : "70 人天 × 1300 元/人天"
+      }, {
+        "name" : "分包/渠道成本",
+        "amount" : 16.00,
+        "remark" : "预算的 5.0%"
+      }, {
+        "name" : "差旅与尽调",
+        "amount" : 6.40,
+        "remark" : "预算的 2.0%"
+      }, {
+        "name" : "其他直接费用",
+        "amount" : 3.20,
+        "remark" : "按预算 1% 且不低于 2 万元"
+      }, {
+        "name" : "税费",
+        "amount" : 2.08,
+        "remark" : "成本的 6.0%"
+      } ],
+      "totalCost" : 36.78,
+      "floorPrice" : 41.19,
+      "ceilingPrice" : 307.20,
+      "recommendedPrice" : 294.40,
+      "grossMarginRate" : 87.51,
+      "priceScore" : 27.27,
+      "winProbability" : 90.87,
+      "strategy" : "均衡报价",
+      "riskNotes" : [ ],
+      "personDays" : 70,
+      "dailyRate" : 1300,
+      "subcontractRate" : 0.05,
+      "travelRate" : 0.02,
+      "taxRate" : 0.06,
+      "discountRate" : 0.08,
+      "competitorCount" : 4,
+      "calculatedAt" : "2026-10-26 11:38:42"
+    },
+    "aiDraft" : {
+      "outline" : [ {
+        "title" : "项目理解与总体思路",
+        "points" : [ "产业定位同质化、渠道碎片化、签约与落地脱节是本项目三大难点", "总体思路：产业研究先行、渠道组织制胜、运营服务兜底", "编制侧重：数字经济产业品牌塑造、园区 IP 运营、招商转化" ]
+      }, {
+        "title" : "产业定位与招商目标",
+        "points" : [ "目标企业分为链主及区域总部、高成长科技企业、专业服务机构三类", "合作期内去化 60% 以上，引入不少于 3 家关键企业", "建立一企一档，跟踪选址周期与决策链" ]
+      }, {
+        "title" : "招商策略与渠道组合",
+        "points" : [ "产业链招商、渠道招商、活动招商、以商招商、政策协同、数字招商", "80+ 中介机构、1500 名经纪人、100 余家商协会资源", "线索 48 小时响应、72 小时带看、每周复盘" ]
+      }, {
+        "title" : "实施计划与团队配置",
+        "points" : [ "四阶段推进：筹备、启动、攻坚、运营", "项目总监 + 招商 + 渠道 + 运营 + 品牌 + 数据", "周报、月度经营分析、季度复盘" ]
+      }, {
+        "title" : "运营服务与去化保障",
+        "points" : [ "选址注册、政策申报、人才对接一站式落地", "悦集荟企业成长平台提升黏性", "全流程漏斗与重点客户升级机制" ]
+      }, {
+        "title" : "质量保障与风险控制",
+        "points" : [ "ISO 三体系过程控制", "去化、签约、入驻、满意度四维考核", "保密、合规与数据分级授权" ]
+      }, {
+        "title" : "资格与业绩响应",
+        "points" : [ "鼓楼国资参股、AAA 信用、ISO 三体系", "泛悦城市广场、铂丽大厦、仙林万达茂、中海滨江 U-LIVE 等案例", "覆盖商办、文旅商业与产业园区" ]
+      }, {
+        "title" : "硬性要求逐条响应",
+        "points" : [ "招标文件硬性条款逐条对应", "不满足项在风险提示中明示", "证明材料按资格文件清单归档" ]
+      } ],
+      "technicalProposal" : "一、项目理解与总体思路\n行至集对本项目的理解是：壹城数字经济创意园品牌顾问服务由南京壹城建设集团有限公司发起，载体为壹城数字经济创意园，产业方向聚焦数字经济，招标预算约320 万元，投标截止时间为2026年12月05日。项目不仅要求完成空间去化，更要求在产业定位、企业招引、落地服务与区域品牌之间形成闭环。\n当前招商工作普遍面临三方面挑战：一是产业定位同质化，容易陷入“什么企业都招”的被动局面；二是渠道触达碎片化，中介、商协会、高校与政府资源之间缺少统一调度；三是签约与落地脱节，企业注册、政策申报、办公交付等环节衔接不畅，影响去化质量与口碑。\n基于上述判断，我方提出“产业研究先行、渠道组织制胜、运营服务兜底”的总体思路：以区域产业基础和载体禀赋确定 2—3 个主攻赛道，建立目标企业库；以行至集渠道网络与活动能力实现批量触达和精准转化；以企业成长服务体系保障“招得来、留得住、长得大”。\n本方案编制侧重：数字经济产业品牌塑造、园区 IP 运营、招商转化；整体语气：专业、稳健。\n\n二、产业定位与招商目标\n（一）产业定位。围绕数字经济，结合载体硬件条件与周边产业基础，建议将目标企业划分为“链主及区域总部、高成长科技企业、专业服务机构”三类，分别匹配不同的面积段、租金策略与政策工具，避免单一业态过度集中。\n（二）招商目标（建议值，最终以合同约定为准）。合作期内完成载体可招商面积的 60% 以上去化；引入不少于 3 家产业链关键企业或区域总部；形成不少于 2 个可复制的产业招商案例；企业注册率、实际入驻率与租金收缴率纳入月度考核。\n（三）目标企业画像。重点筛选符合区域产业导向、具备稳定现金流与扩张需求、且与现有产业链形成协同的企业，建立“一企一档”，持续跟踪其选址周期与决策链。\n\n三、招商策略与渠道组合\n（一）产业链招商。绘制产业链图谱，识别缺失环节与关键配套，围绕链主企业开展上下游定向招引，以“龙头+配套”的方式提升签约转化率与产业集聚度。\n（二）渠道招商。依托行至集80+ 家中介合作机构、1500 名合作经纪人，建立渠道分级管理与佣金结算机制；对渠道推荐项目实行 48 小时响应、72 小时带看、每周复盘，确保线索不流失。\n（三）活动招商。结合项目节点组织招商推介会、产业沙龙、企业开放日与线上直播看房，形成“月月有活动、季季有主题”的节奏；活动前明确邀约名单与转化目标，活动后 7 天内完成回访。\n（四）以商招商。通过已入驻企业、商协会与合作伙伴转介绍，降低获客成本；依托100 余家商会、协会及企业俱乐部扩展触达面。\n（五）政策协同。梳理区域产业扶持、人才、税收与装修补贴政策，形成“政策明白卡”，在谈判阶段同步给出落地成本测算，增强企业决策信心。\n（六）数字招商。建立线索管理系统，对线索来源、跟进阶段、带看次数、报价与签约概率进行可视化跟踪，用数据驱动周度策略调整。\n\n四、实施计划与团队配置\n（一）实施计划。筹备期（第 1—4 周）：完成产业研究、载体梳理、价格与政策工具包、渠道动员；启动期（第 5—8 周）：集中邀约与推介活动，形成首批意向客户；攻坚期（第 9—24 周）：重点客户一对一谈判，推动签约与注册落地；运营期（第 25—52 周）：持续去化、企业服务与案例沉淀。\n（二）团队配置。拟投入项目总监 1 名、招商经理 3 名、渠道经理 2 名、运营服务 2 名、品牌策划 1 名、数据分析 1 名，后台由公司渠道中心与产业研究中心提供支持。项目总监对结果负责，实行周报、月度经营分析与季度复盘机制。\n（三）协作机制。与招标人建立联合工作组，明确双方接口人、决策流程与例会制度；重大价格与条款调整须经双方书面确认，确保过程可追溯。\n\n五、运营服务与去化保障\n（一）企业落地服务。提供选址、注册、装修、政策申报、人才招聘对接等一站式服务，缩短企业从签约到投产的周期。\n（二）企业成长服务。依托行至集“悦集荟”企业成长平台，组织财务、法务、人力资源、市场拓展等主题沙龙，提升企业黏性与续租率。\n（三）运营品质保障。协同物业建立企业诉求响应机制，明确报修、投诉、活动的响应时限；定期开展企业满意度调查，将结果纳入运营考核。\n（四）去化保障。建立“线索—意向—带看—报价—签约—入驻”全流程漏斗，对连续两周无进展的客户启动升级处理；对重点客户提供定制化落地方案。\n\n六、质量保障与风险控制\n（一）质量体系。行至集已通过ISO9001 / ISO14001 / ISO45001 三体系认证，项目执行按照体系文件进行过程控制与记录管理。\n（二）考核机制。以去化面积、签约金额、入驻率、企业满意度为核心指标，按月考核、按季兑现，未达节点及时纠偏。\n（三）风险控制。重点防范去化不达预期、同质化竞争、价格体系失控、企业注册地与税收贡献不匹配、渠道飞单等风险，逐项制定应对措施与责任人。\n（四）合规与保密。严格遵守招标人保密要求，项目数据分级授权、留痕管理；所有对外宣传口径须经招标人确认。\n\n七、资格与业绩响应\n行至集为鼓楼国资参股企业，获评AAA 级信用企业，并通过ISO9001 / ISO14001 / ISO45001 三体系认证。公司核心业务涵盖项目咨询顾问、品牌策划推广、招商代理及运营、企业成长服务。\n近年服务案例包括电建中储泛悦城市广场、铂丽大厦、仙林万达茂、鼓楼中海滨江 U-LIVE、壹城数字经济创意园等项目，覆盖商办综合体、文旅商业与产业园区等多种载体类型。公司具备完整的招商代理、品牌运营与企业服务能力，可为本项目提供持续支撑。\n\n八、针对招标文件硬性要求的响应说明\n1. 本项目预算/最高限价为 320 万元，报价不得超过该上限。\n   响应：已纳入本方案第2节，并在资格文件/技术文件中提供对应说明与证明材料。\n2. 投标保证金金额为 6 万元，需在截止时间前足额缴纳。\n   响应：已纳入本方案第3节，并在资格文件/技术文件中提供对应说明与证明材料。\n3. 投标文件须于 2026-12-05 17:00 前递交，逾期不予受理。\n   响应：已纳入本方案第4节，并在资格文件/技术文件中提供对应说明与证明材料。\n4. 1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n   响应：已纳入本方案第5节，并在资格文件/技术文件中提供对应说明与证明材料。\n5. 2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n   响应：已纳入本方案第6节，并在资格文件/技术文件中提供对应说明与证明材料。\n6. 2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n   响应：已纳入本方案第7节，并在资格文件/技术文件中提供对应说明与证明材料。\n7. 8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n   响应：已纳入本方案第8节，并在资格文件/技术文件中提供对应说明与证明材料。\n8. 1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n   响应：已纳入本方案第8节，并在资格文件/技术文件中提供对应说明与证明材料。\n\n",
+      "commercialResponse" : "商务响应与报价说明\n1. 投标报价：建议报价 294.4 万元，最终以盖章报价表为准；报价包含人工、渠道、活动执行、差旅、税费等完成本项目服务所需的全部费用。\n2. 付款方式：建议按“合同签订后 30%、中期验收后 40%、服务期满验收合格后 30%”分期支付，具体以合同谈判结果为准。\n3. 服务期限：自合同签订之日起 12 个月，可根据去化进度协商延长。\n4. 服务承诺：关键节点未达成的，按合同约定承担整改与违约责任；项目团队核心成员未经招标人同意不随意更换。\n5. 增值服务：免费提供产业研究报告、政策汇编、招商推介会策划及企业服务活动。\n6. 成本说明：按当前测算，项目毛利率约 87.51%，我方将在保证交付质量的前提下控制成本。\n",
+      "qualificationResponse" : "资格响应\n1. 主体资格：行至集为依法注册的独立法人，具备承担本项目的能力。\n2. 信用记录：获评 AAA 级信用企业，无失信被执行、重大税收违法与政府采购严重违法记录。\n3. 资质认证：通过 ISO9001 质量管理体系、ISO14001 环境管理体系、ISO45001 职业健康安全管理体系认证。\n4. 同类业绩：近三年完成多个商办、文旅商业及产业园区招商代理/品牌运营项目，详见业绩证明材料。\n5. 团队能力：可投入具有产业研究、渠道组织、企业服务经验的专业团队，核心成员稳定。\n6. 关联关系：与招标人不存在可能影响公正性的关联关系，并出具无利益冲突承诺函。\n",
+      "riskNotes" : [ "未发现重大风险，仍建议复核报价口径、业绩证明有效期与授权委托书签署情况" ],
+      "provider" : "local-template",
+      "model" : "local-template-v1",
+      "promptVersion" : "bid-draft-v1.2",
+      "generatedAt" : "2026-10-26 11:38:42",
+      "degraded" : false,
+      "elapsedMs" : 0,
+      "warning" : "当前使用本地模板引擎生成，内容可人工编辑；如需大模型润色，请配置 app.ai.provider。"
+    },
+    "reviews" : [ {
+      "id" : "RV996aad4c93",
+      "round" : 1,
+      "reviewerId" : "U003",
+      "reviewerName" : "reviewer",
+      "decision" : "APPROVE",
+      "opinion" : "方案结构完整，品牌策略与产业定位匹配，报价在预算范围内，同意投标。",
+      "createdAt" : "2026-10-26 11:38:42"
+    } ],
+    "attachments" : [ ],
+    "comments" : [ ],
+    "watcherIds" : [ ],
+    "submission" : {
+      "submittedAt" : "2026-10-26 11:38:42",
+      "method" : "电子招投标平台",
+      "referenceNo" : "NJGGZY-2026-0921-018",
+      "operatorName" : "manager",
+      "note" : "已完成电子签章与标书上传，回执已归档。"
+    },
+    "archive" : {
+      "archivedAt" : "2026-10-26 11:38:42",
+      "archiveNo" : "ARC-BP20261026-004",
+      "retentionYears" : 10,
+      "operatorName" : "manager",
+      "note" : "投标文件、评审记录、回执与复盘材料已归档。"
+    },
+    "lastReviewOpinion" : "方案结构完整，品牌策略与产业定位匹配，报价在预算范围内，同意投标。"
+  }, {
+    "id" : "P1792985922224",
+    "code" : "BP20261026-005",
+    "name" : "中信泰富总部办公载体招商代理服务",
+    "clientName" : "中信泰富（南京）投资有限公司",
+    "carrierName" : "中信泰富总部办公载体",
+    "industry" : "商务服务/总部经济",
+    "source" : "老客户复购",
+    "ownerId" : "U002",
+    "ownerName" : "manager",
+    "department" : "招商一部",
+    "status" : "REVIEW_REJECTED",
+    "deleted" : false,
+    "version" : 7,
+    "createdAt" : "2026-10-26 11:38:42",
+    "updatedAt" : "2026-10-26 11:38:42",
+    "createdBy" : "manager",
+    "deadline" : "2026-11-17 17:00:00",
+    "budgetAmount" : 520,
+    "bidAmount" : 478.40,
+    "depositAmount" : 10,
+    "projectBrief" : "项目为南京主城核心区总部办公载体，建筑面积约 8 万㎡，需引入金融、专业服务与总部型企业。招标人特别关注文旅商业资源导入与首年去化率。",
+    "tenderText" : "项目名称：中信泰富总部办公载体招商代理服务\n招标人：中信泰富（南京）投资有限公司\n预算金额：人民币520万元\n投标保证金：人民币10万元\n投标截止时间：2026年11月17日 17:00\n一、资格要求\n1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。\n4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。\n二、服务要求\n5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。\n6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。\n7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。\n三、商务要求\n8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。\n10. 报价须包含人工、渠道、活动执行、差旅与税费等全部费用。\n四、评标办法\n11. 采用综合评分法：价格分30分、技术分50分、商务分20分。\n12. 服务期12个月，核心团队须驻场服务，未经招标人同意不得更换。\n",
+    "profile" : {
+      "companyName" : "南京市行至集商业服务有限公司",
+      "registeredCapital" : 1000,
+      "establishedYear" : 2019,
+      "qualifications" : [ "房地产经纪机构备案", "招商运营服务能力", "ISO9001质量管理体系认证", "ISO14001环境管理体系认证", "ISO45001职业健康安全管理体系认证" ],
+      "creditLevel" : "AAA",
+      "similarProjectCount" : 6,
+      "similarProjectAmount" : 2600,
+      "teamSize" : 28,
+      "hasGovernmentClient" : true,
+      "bidBondAvailable" : true,
+      "blacklisted" : false,
+      "conflictsOfInterest" : false,
+      "financialStatus" : "盈利",
+      "notes" : "数据为演示口径，正式投标请以营业执照、资质证书及审计报告为准。"
+    },
+    "qualificationResult" : {
+      "passed" : true,
+      "conclusion" : "PASS",
+      "score" : 100,
+      "checkedAt" : "2026-10-26 11:38:42",
+      "checks" : [ {
+        "ruleCode" : "Q01",
+        "ruleName" : "注册资本",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "1000 万元",
+        "expectedValue" : "≥ 300 万元",
+        "message" : "通过：注册资本满足要求",
+        "weight" : 15,
+        "suggestion" : "注册资本满足要求"
+      }, {
+        "ruleCode" : "Q02",
+        "ruleName" : "成立年限",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "7 年",
+        "expectedValue" : "≥ 3 年",
+        "message" : "通过：成立年限满足要求",
+        "weight" : 10,
+        "suggestion" : "成立年限满足要求"
+      }, {
+        "ruleCode" : "Q03",
+        "ruleName" : "信用等级",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "AAA",
+        "expectedValue" : "不低于 AA",
+        "message" : "通过：信用等级满足要求",
+        "weight" : 10,
+        "suggestion" : "信用等级满足要求"
+      }, {
+        "ruleCode" : "Q04",
+        "ruleName" : "同类项目业绩",
+        "category" : "业绩能力",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "6 个（合同额 2600 万元）",
+        "expectedValue" : "≥ 2 个",
+        "message" : "通过：同类业绩数量满足要求",
+        "weight" : 20,
+        "suggestion" : "同类业绩数量满足要求"
+      }, {
+        "ruleCode" : "Q05",
+        "ruleName" : "核心资质/备案",
+        "category" : "主体资格",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "招商运营、房地产经纪（共 5 项）",
+        "expectedValue" : "具备 招商运营|房地产经纪|产业园区运营",
+        "message" : "通过：资质/备案满足要求",
+        "weight" : 10,
+        "suggestion" : "资质/备案满足要求"
+      }, {
+        "ruleCode" : "Q06",
+        "ruleName" : "团队规模",
+        "category" : "团队能力",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "28 人",
+        "expectedValue" : "≥ 10 人",
+        "message" : "通过：团队规模满足要求",
+        "weight" : 5,
+        "suggestion" : "团队规模满足要求"
+      }, {
+        "ruleCode" : "Q07",
+        "ruleName" : "保证金能力",
+        "category" : "商务履约",
+        "mandatory" : false,
+        "passed" : true,
+        "actualValue" : "可覆盖",
+        "expectedValue" : "可覆盖投标保证金",
+        "message" : "通过：保证金资金安排已落实",
+        "weight" : 5,
+        "suggestion" : "保证金资金安排已落实"
+      }, {
+        "ruleCode" : "Q08",
+        "ruleName" : "失信/黑名单",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无失信记录",
+        "expectedValue" : "无失信/黑名单记录",
+        "message" : "通过：信用记录正常",
+        "weight" : 15,
+        "suggestion" : "信用记录正常"
+      }, {
+        "ruleCode" : "Q09",
+        "ruleName" : "关联关系",
+        "category" : "信用合规",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "无关联关系",
+        "expectedValue" : "无利益冲突",
+        "message" : "通过：关联关系声明正常",
+        "weight" : 5,
+        "suggestion" : "关联关系声明正常"
+      }, {
+        "ruleCode" : "Q10",
+        "ruleName" : "投标准备时间",
+        "category" : "时间要求",
+        "mandatory" : true,
+        "passed" : true,
+        "actualValue" : "22 天",
+        "expectedValue" : "≥ 3 天准备时间",
+        "message" : "通过：投标准备时间充足",
+        "weight" : 5,
+        "suggestion" : "投标准备时间充足"
+      } ],
+      "hardFailures" : [ ],
+      "warnings" : [ ],
+      "summary" : "资格预审通过，全部规则满足。"
+    },
+    "extraction" : {
+      "items" : [ {
+        "id" : "RQ8f77c10e",
+        "category" : "报价要求",
+        "title" : "项目预算/最高限价",
+        "content" : "本项目预算/最高限价为 520 万元，报价不得超过该上限。",
+        "mandatory" : true,
+        "source" : "南京）投资有限公司 预算金额：人民币520万元 投标保证金：人民币",
+        "confidence" : 0.95,
+        "confirmed" : false
+      }, {
+        "id" : "RQ78092b13",
+        "category" : "商务条款",
+        "title" : "投标保证金",
+        "content" : "投标保证金金额为 10 万元，需在截止时间前足额缴纳。",
+        "mandatory" : true,
+        "source" : "：人民币520万元 投标保证金：人民币10万元 投标截止时间：20",
+        "confidence" : 0.92,
+        "confirmed" : false
+      }, {
+        "id" : "RQ2ea55a47",
+        "category" : "时间节点",
+        "title" : "投标截止时间",
+        "content" : "投标文件须于 2026-11-17 17:00 前递交，逾期不予受理。",
+        "mandatory" : true,
+        "source" : "金：人民币10万元 投标截止时间：2026年11月17日 17:00 一、资格要求 1.",
+        "confidence" : 0.93,
+        "confirmed" : false
+      }, {
+        "id" : "RQ5d2ca5e4",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ3f01a776",
+        "category" : "资格条件",
+        "title" : "资格条件要点 2",
+        "content" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "mandatory" : false,
+        "source" : "3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ88b161fc",
+        "category" : "资格条件",
+        "title" : "资格条件要点 1",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ639616a5",
+        "category" : "评标办法",
+        "title" : "评标办法要点 1",
+        "content" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "mandatory" : false,
+        "source" : "11. 采用综合评分法：价格分30分、技术分50分、商务分20分。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ9e97847f",
+        "category" : "商务条款",
+        "title" : "商务条款要点 1",
+        "content" : "投标保证金：人民币10万元",
+        "mandatory" : false,
+        "source" : "投标保证金：人民币10万元",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQb2a2a0c7",
+        "category" : "商务条款",
+        "title" : "商务条款要点 2",
+        "content" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "mandatory" : true,
+        "source" : "2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQcc5edc0c",
+        "category" : "商务条款",
+        "title" : "商务条款要点 3",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ78552a4a",
+        "category" : "商务条款",
+        "title" : "商务条款要点 4",
+        "content" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "mandatory" : false,
+        "source" : "9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ9e074332",
+        "category" : "技术需求",
+        "title" : "技术需求要点 1",
+        "content" : "项目名称：中信泰富总部办公载体招商代理服务",
+        "mandatory" : false,
+        "source" : "项目名称：中信泰富总部办公载体招商代理服务",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ31ace96e",
+        "category" : "技术需求",
+        "title" : "技术需求要点 2",
+        "content" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "mandatory" : true,
+        "source" : "1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQa96ae841",
+        "category" : "技术需求",
+        "title" : "技术需求要点 3",
+        "content" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "mandatory" : true,
+        "source" : "4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ49817057",
+        "category" : "技术需求",
+        "title" : "技术需求要点 4",
+        "content" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "mandatory" : false,
+        "source" : "5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ348cd580",
+        "category" : "技术需求",
+        "title" : "技术需求要点 5",
+        "content" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "mandatory" : false,
+        "source" : "6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ3d2a832e",
+        "category" : "时间节点",
+        "title" : "时间节点要点 1",
+        "content" : "投标截止时间：2026年11月17日 17:00",
+        "mandatory" : false,
+        "source" : "投标截止时间：2026年11月17日 17:00",
+        "confidence" : 0.72,
+        "confirmed" : false
+      }, {
+        "id" : "RQ506a4ce2",
+        "category" : "时间节点",
+        "title" : "时间节点要点 2",
+        "content" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "mandatory" : true,
+        "source" : "8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。",
+        "confidence" : 0.72,
+        "confirmed" : false
+      } ],
+      "extractedAt" : "2026-10-26 11:38:42",
+      "source" : "RULE",
+      "charCount" : 550,
+      "summary" : "共抽取 18 项要素，其中硬性要求 10 项；预算已识别；截止时间已识别。",
+      "budgetAmount" : 520,
+      "depositAmount" : 10,
+      "deadline" : "2026-11-17 17:00:00",
+      "warnings" : [ ]
+    },
+    "matchReport" : {
+      "score" : 98,
+      "recommendation" : "强烈建议",
+      "dimensions" : [ {
+        "name" : "资质匹配",
+        "score" : 30,
+        "fullScore" : 30,
+        "comment" : "预审得分 100，不满足 0 项"
+      }, {
+        "name" : "业绩匹配",
+        "score" : 23,
+        "fullScore" : 25,
+        "comment" : "近三年同类项目 6 个"
+      }, {
+        "name" : "团队配置",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "可投入团队 28 人"
+      }, {
+        "name" : "本地资源",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "渠道、高校、商协会资源可直接复用"
+      }, {
+        "name" : "价格空间",
+        "score" : 15,
+        "fullScore" : 15,
+        "comment" : "预算 520 万元，具备服务成本空间"
+      } ],
+      "matched" : [ "近三年 6 个同类招商/运营项目业绩", "具备政府/国资项目服务经验，熟悉区域产业政策", "80+ 家中介合作机构、1500 名合作经纪人渠道网络", "20 所高校合作资源、100 余家商会协会资源", "注册资本：1000 万元", "成立年限：7 年", "信用等级：AAA", "同类项目业绩：6 个（合同额 2600 万元）", "核心资质/备案：招商运营、房地产经纪（共 5 项）", "失信/黑名单：无失信记录", "关联关系：无关联关系", "投标准备时间：22 天", "具备 5 项资质/备案，包括 房地产经纪机构备案、招商运营服务能力、ISO9001质量管理体系认证" ],
+      "gaps" : [ ],
+      "summary" : "综合匹配得分 98 分，投标建议：强烈建议。优势项 13 条，需补强 0 条。",
+      "generatedAt" : "2026-10-26 11:38:42"
+    },
+    "pricingPlan" : {
+      "budgetAmount" : 520,
+      "costItems" : [ {
+        "name" : "人力成本",
+        "amount" : 8.80,
+        "remark" : "80 人天 × 1100 元/人天"
+      }, {
+        "name" : "分包/渠道成本",
+        "amount" : 26.00,
+        "remark" : "预算的 5.0%"
+      }, {
+        "name" : "差旅与尽调",
+        "amount" : 10.40,
+        "remark" : "预算的 2.0%"
+      }, {
+        "name" : "其他直接费用",
+        "amount" : 5.20,
+        "remark" : "按预算 1% 且不低于 2 万元"
+      }, {
+        "name" : "税费",
+        "amount" : 3.02,
+        "remark" : "成本的 6.0%"
+      } ],
+      "totalCost" : 53.42,
+      "floorPrice" : 59.83,
+      "ceilingPrice" : 499.20,
+      "recommendedPrice" : 478.40,
+      "grossMarginRate" : 88.83,
+      "priceScore" : 27.27,
+      "winProbability" : 89.27,
+      "strategy" : "均衡报价",
+      "riskNotes" : [ ],
+      "personDays" : 80,
+      "dailyRate" : 1100,
+      "subcontractRate" : 0.05,
+      "travelRate" : 0.02,
+      "taxRate" : 0.06,
+      "discountRate" : 0.08,
+      "competitorCount" : 5,
+      "calculatedAt" : "2026-10-26 11:38:42"
+    },
+    "aiDraft" : {
+      "outline" : [ {
+        "title" : "项目理解与总体思路",
+        "points" : [ "产业定位同质化、渠道碎片化、签约与落地脱节是本项目三大难点", "总体思路：产业研究先行、渠道组织制胜、运营服务兜底", "编制侧重：总部型企业招引、金融资源导入、首年去化保障" ]
+      }, {
+        "title" : "产业定位与招商目标",
+        "points" : [ "目标企业分为链主及区域总部、高成长科技企业、专业服务机构三类", "合作期内去化 60% 以上，引入不少于 3 家关键企业", "建立一企一档，跟踪选址周期与决策链" ]
+      }, {
+        "title" : "招商策略与渠道组合",
+        "points" : [ "产业链招商、渠道招商、活动招商、以商招商、政策协同、数字招商", "80+ 中介机构、1500 名经纪人、100 余家商协会资源", "线索 48 小时响应、72 小时带看、每周复盘" ]
+      }, {
+        "title" : "实施计划与团队配置",
+        "points" : [ "四阶段推进：筹备、启动、攻坚、运营", "项目总监 + 招商 + 渠道 + 运营 + 品牌 + 数据", "周报、月度经营分析、季度复盘" ]
+      }, {
+        "title" : "运营服务与去化保障",
+        "points" : [ "选址注册、政策申报、人才对接一站式落地", "悦集荟企业成长平台提升黏性", "全流程漏斗与重点客户升级机制" ]
+      }, {
+        "title" : "质量保障与风险控制",
+        "points" : [ "ISO 三体系过程控制", "去化、签约、入驻、满意度四维考核", "保密、合规与数据分级授权" ]
+      }, {
+        "title" : "资格与业绩响应",
+        "points" : [ "鼓楼国资参股、AAA 信用、ISO 三体系", "泛悦城市广场、铂丽大厦、仙林万达茂、中海滨江 U-LIVE 等案例", "覆盖商办、文旅商业与产业园区" ]
+      }, {
+        "title" : "硬性要求逐条响应",
+        "points" : [ "招标文件硬性条款逐条对应", "不满足项在风险提示中明示", "证明材料按资格文件清单归档" ]
+      } ],
+      "technicalProposal" : "一、项目理解与总体思路\n行至集对本项目的理解是：中信泰富总部办公载体招商代理服务由中信泰富（南京）投资有限公司发起，载体为中信泰富总部办公载体，产业方向聚焦商务服务/总部经济，招标预算约520 万元，投标截止时间为2026年11月17日。项目不仅要求完成空间去化，更要求在产业定位、企业招引、落地服务与区域品牌之间形成闭环。\n当前招商工作普遍面临三方面挑战：一是产业定位同质化，容易陷入“什么企业都招”的被动局面；二是渠道触达碎片化，中介、商协会、高校与政府资源之间缺少统一调度；三是签约与落地脱节，企业注册、政策申报、办公交付等环节衔接不畅，影响去化质量与口碑。\n基于上述判断，我方提出“产业研究先行、渠道组织制胜、运营服务兜底”的总体思路：以区域产业基础和载体禀赋确定 2—3 个主攻赛道，建立目标企业库；以行至集渠道网络与活动能力实现批量触达和精准转化；以企业成长服务体系保障“招得来、留得住、长得大”。\n本方案编制侧重：总部型企业招引、金融资源导入、首年去化保障；整体语气：专业、稳健。\n\n二、产业定位与招商目标\n（一）产业定位。围绕商务服务/总部经济，结合载体硬件条件与周边产业基础，建议将目标企业划分为“链主及区域总部、高成长科技企业、专业服务机构”三类，分别匹配不同的面积段、租金策略与政策工具，避免单一业态过度集中。\n（二）招商目标（建议值，最终以合同约定为准）。合作期内完成载体可招商面积的 60% 以上去化；引入不少于 3 家产业链关键企业或区域总部；形成不少于 2 个可复制的产业招商案例；企业注册率、实际入驻率与租金收缴率纳入月度考核。\n（三）目标企业画像。重点筛选符合区域产业导向、具备稳定现金流与扩张需求、且与现有产业链形成协同的企业，建立“一企一档”，持续跟踪其选址周期与决策链。\n\n三、招商策略与渠道组合\n（一）产业链招商。绘制产业链图谱，识别缺失环节与关键配套，围绕链主企业开展上下游定向招引，以“龙头+配套”的方式提升签约转化率与产业集聚度。\n（二）渠道招商。依托行至集80+ 家中介合作机构、1500 名合作经纪人，建立渠道分级管理与佣金结算机制；对渠道推荐项目实行 48 小时响应、72 小时带看、每周复盘，确保线索不流失。\n（三）活动招商。结合项目节点组织招商推介会、产业沙龙、企业开放日与线上直播看房，形成“月月有活动、季季有主题”的节奏；活动前明确邀约名单与转化目标，活动后 7 天内完成回访。\n（四）以商招商。通过已入驻企业、商协会与合作伙伴转介绍，降低获客成本；依托100 余家商会、协会及企业俱乐部扩展触达面。\n（五）政策协同。梳理区域产业扶持、人才、税收与装修补贴政策，形成“政策明白卡”，在谈判阶段同步给出落地成本测算，增强企业决策信心。\n（六）数字招商。建立线索管理系统，对线索来源、跟进阶段、带看次数、报价与签约概率进行可视化跟踪，用数据驱动周度策略调整。\n\n四、实施计划与团队配置\n（一）实施计划。筹备期（第 1—4 周）：完成产业研究、载体梳理、价格与政策工具包、渠道动员；启动期（第 5—8 周）：集中邀约与推介活动，形成首批意向客户；攻坚期（第 9—24 周）：重点客户一对一谈判，推动签约与注册落地；运营期（第 25—52 周）：持续去化、企业服务与案例沉淀。\n（二）团队配置。拟投入项目总监 1 名、招商经理 3 名、渠道经理 2 名、运营服务 2 名、品牌策划 1 名、数据分析 1 名，后台由公司渠道中心与产业研究中心提供支持。项目总监对结果负责，实行周报、月度经营分析与季度复盘机制。\n（三）协作机制。与招标人建立联合工作组，明确双方接口人、决策流程与例会制度；重大价格与条款调整须经双方书面确认，确保过程可追溯。\n\n五、运营服务与去化保障\n（一）企业落地服务。提供选址、注册、装修、政策申报、人才招聘对接等一站式服务，缩短企业从签约到投产的周期。\n（二）企业成长服务。依托行至集“悦集荟”企业成长平台，组织财务、法务、人力资源、市场拓展等主题沙龙，提升企业黏性与续租率。\n（三）运营品质保障。协同物业建立企业诉求响应机制，明确报修、投诉、活动的响应时限；定期开展企业满意度调查，将结果纳入运营考核。\n（四）去化保障。建立“线索—意向—带看—报价—签约—入驻”全流程漏斗，对连续两周无进展的客户启动升级处理；对重点客户提供定制化落地方案。\n\n六、质量保障与风险控制\n（一）质量体系。行至集已通过ISO9001 / ISO14001 / ISO45001 三体系认证，项目执行按照体系文件进行过程控制与记录管理。\n（二）考核机制。以去化面积、签约金额、入驻率、企业满意度为核心指标，按月考核、按季兑现，未达节点及时纠偏。\n（三）风险控制。重点防范去化不达预期、同质化竞争、价格体系失控、企业注册地与税收贡献不匹配、渠道飞单等风险，逐项制定应对措施与责任人。\n（四）合规与保密。严格遵守招标人保密要求，项目数据分级授权、留痕管理；所有对外宣传口径须经招标人确认。\n\n七、资格与业绩响应\n行至集为鼓楼国资参股企业，获评AAA 级信用企业，并通过ISO9001 / ISO14001 / ISO45001 三体系认证。公司核心业务涵盖项目咨询顾问、品牌策划推广、招商代理及运营、企业成长服务。\n近年服务案例包括电建中储泛悦城市广场、铂丽大厦、仙林万达茂、鼓楼中海滨江 U-LIVE、壹城数字经济创意园等项目，覆盖商办综合体、文旅商业与产业园区等多种载体类型。公司具备完整的招商代理、品牌运营与企业服务能力，可为本项目提供持续支撑。\n\n八、针对招标文件硬性要求的响应说明\n1. 本项目预算/最高限价为 520 万元，报价不得超过该上限。\n   响应：已纳入本方案第2节，并在资格文件/技术文件中提供对应说明与证明材料。\n2. 投标保证金金额为 10 万元，需在截止时间前足额缴纳。\n   响应：已纳入本方案第3节，并在资格文件/技术文件中提供对应说明与证明材料。\n3. 投标文件须于 2026-11-17 17:00 前递交，逾期不予受理。\n   响应：已纳入本方案第4节，并在资格文件/技术文件中提供对应说明与证明材料。\n4. 1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n   响应：已纳入本方案第5节，并在资格文件/技术文件中提供对应说明与证明材料。\n5. 2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n   响应：已纳入本方案第6节，并在资格文件/技术文件中提供对应说明与证明材料。\n6. 2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n   响应：已纳入本方案第7节，并在资格文件/技术文件中提供对应说明与证明材料。\n7. 8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n   响应：已纳入本方案第8节，并在资格文件/技术文件中提供对应说明与证明材料。\n8. 1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n   响应：已纳入本方案第8节，并在资格文件/技术文件中提供对应说明与证明材料。\n\n",
+      "commercialResponse" : "商务响应与报价说明\n1. 投标报价：建议报价 478.4 万元，最终以盖章报价表为准；报价包含人工、渠道、活动执行、差旅、税费等完成本项目服务所需的全部费用。\n2. 付款方式：建议按“合同签订后 30%、中期验收后 40%、服务期满验收合格后 30%”分期支付，具体以合同谈判结果为准。\n3. 服务期限：自合同签订之日起 12 个月，可根据去化进度协商延长。\n4. 服务承诺：关键节点未达成的，按合同约定承担整改与违约责任；项目团队核心成员未经招标人同意不随意更换。\n5. 增值服务：免费提供产业研究报告、政策汇编、招商推介会策划及企业服务活动。\n6. 成本说明：按当前测算，项目毛利率约 88.83%，我方将在保证交付质量的前提下控制成本。\n",
+      "qualificationResponse" : "资格响应\n1. 主体资格：行至集为依法注册的独立法人，具备承担本项目的能力。\n2. 信用记录：获评 AAA 级信用企业，无失信被执行、重大税收违法与政府采购严重违法记录。\n3. 资质认证：通过 ISO9001 质量管理体系、ISO14001 环境管理体系、ISO45001 职业健康安全管理体系认证。\n4. 同类业绩：近三年完成多个商办、文旅商业及产业园区招商代理/品牌运营项目，详见业绩证明材料。\n5. 团队能力：可投入具有产业研究、渠道组织、企业服务经验的专业团队，核心成员稳定。\n6. 关联关系：与招标人不存在可能影响公正性的关联关系，并出具无利益冲突承诺函。\n",
+      "riskNotes" : [ "未发现重大风险，仍建议复核报价口径、业绩证明有效期与授权委托书签署情况" ],
+      "provider" : "local-template",
+      "model" : "local-template-v1",
+      "promptVersion" : "bid-draft-v1.2",
+      "generatedAt" : "2026-10-26 11:38:42",
+      "degraded" : false,
+      "elapsedMs" : 0,
+      "warning" : "当前使用本地模板引擎生成，内容可人工编辑；如需大模型润色，请配置 app.ai.provider。"
+    },
+    "reviews" : [ {
+      "id" : "RV266578d8f5",
+      "round" : 1,
+      "reviewerId" : "U003",
+      "reviewerName" : "reviewer",
+      "decision" : "RETURN",
+      "opinion" : "技术标缺少针对文旅商业资源的去化举措，首年去化目标缺少分月拆解，请补充后重新提交。",
+      "createdAt" : "2026-10-26 11:38:42"
+    } ],
+    "attachments" : [ ],
+    "comments" : [ ],
+    "watcherIds" : [ ],
+    "lastReviewOpinion" : "技术标缺少针对文旅商业资源的去化举措，首年去化目标缺少分月拆解，请补充后重新提交。"
+  }, {
+    "id" : "P1792985922305",
+    "code" : "BP20261026-006",
+    "name" : "幕府创新区产业载体招商推介服务",
+    "clientName" : "南京鼓楼幕府创新区开发建设有限公司",
+    "carrierName" : "幕府创新区产业载体",
+    "industry" : "科技服务",
+    "source" : "自主开发",
+    "ownerId" : "U002",
+    "ownerName" : "manager",
+    "department" : "招商一部",
+    "status" : "DRAFT",
+    "deleted" : false,
+    "version" : 1,
+    "createdAt" : "2026-10-26 11:38:42",
+    "updatedAt" : "2026-10-26 11:38:42",
+    "createdBy" : "manager",
+    "deadline" : "2026-11-25 17:00:00",
+    "budgetAmount" : 260,
+    "depositAmount" : 5,
+    "projectBrief" : "幕府创新区拟于近期开展产业载体集中招商推介，需服务商提供产业研究、活动策划、渠道邀约与项目对接服务。",
+    "tenderText" : "项目名称：幕府创新区产业载体招商推介服务\n招标人：南京鼓楼幕府创新区开发建设有限公司\n预算金额：人民币260万元\n投标保证金：人民币5万元\n投标截止时间：2026年11月25日 17:00\n一、资格要求\n1. 投标人须具备房地产经纪机构备案或招商运营服务能力，注册资本不低于300万元。\n2. 近三年须具有不少于2个同类项目业绩，并提供合同关键页及验收证明。\n3. 信用等级AA级及以上，且无失信被执行、重大税收违法记录。\n4. 拟投入项目团队不少于10人，须配备项目负责人、招商经理与运营经理。\n二、服务要求\n5. 负责产业定位、招商策略制定、渠道组织、企业招引与落地服务。\n6. 合作期内完成可招商面积60%以上去化，并引入不少于3家产业链关键企业。\n7. 每月提交经营分析报告，每季度组织不少于1场招商推介活动。\n三、商务要求\n8. 投标保证金须在截止时间前足额缴纳，未缴纳按无效标处理。\n9. 付款方式：合同签订后支付30%，中期验收后支付40%，服务期满验收合格后支付30%。\n10. 报价须包含人工、渠道、活动执行、差旅与税费等全部费用。\n四、评标办法\n11. 采用综合评分法：价格分30分、技术分50分、商务分20分。\n12. 服务期12个月，核心团队须驻场服务，未经招标人同意不得更换。",
+    "profile" : {
+      "companyName" : "南京市行至集商业服务有限公司",
+      "registeredCapital" : 1000,
+      "establishedYear" : 2019,
+      "qualifications" : [ "房地产经纪机构备案", "招商运营服务能力", "ISO9001质量管理体系认证", "ISO14001环境管理体系认证", "ISO45001职业健康安全管理体系认证" ],
+      "creditLevel" : "AAA",
+      "similarProjectCount" : 6,
+      "similarProjectAmount" : 2600,
+      "teamSize" : 28,
+      "hasGovernmentClient" : true,
+      "bidBondAvailable" : true,
+      "blacklisted" : false,
+      "conflictsOfInterest" : false,
+      "financialStatus" : "盈利",
+      "notes" : "数据为演示口径，正式投标请以营业执照、资质证书及审计报告为准。"
+    },
+    "reviews" : [ ],
+    "attachments" : [ ],
+    "comments" : [ ],
+    "watcherIds" : [ ]
+  } ],
+  "rules" : [ {
+    "code" : "Q01",
+    "name" : "注册资本",
+    "category" : "主体资格",
+    "field" : "REGISTERED_CAPITAL",
+    "operator" : "GTE",
+    "threshold" : "300",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 15,
+    "suggestion" : "注册资本不足，建议联合体投标或调整标的",
+    "description" : "招商代理类项目通常要求投标人具备一定资本实力，具体以招标文件为准。"
+  }, {
+    "code" : "Q02",
+    "name" : "成立年限",
+    "category" : "主体资格",
+    "field" : "ESTABLISHED_YEARS",
+    "operator" : "GTE",
+    "threshold" : "3",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 10,
+    "suggestion" : "成立年限不足，需以联合体或授权方式补充",
+    "description" : "按当前年份减去成立年份计算。"
+  }, {
+    "code" : "Q03",
+    "name" : "信用等级",
+    "category" : "信用合规",
+    "field" : "CREDIT_LEVEL",
+    "operator" : "LEVEL_GTE",
+    "threshold" : "AA",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 10,
+    "suggestion" : "信用等级不满足，需提供信用修复或补充担保",
+    "description" : "AAA > AA > A > BBB，其余视为不满足。"
+  }, {
+    "code" : "Q04",
+    "name" : "同类项目业绩",
+    "category" : "业绩能力",
+    "field" : "SIMILAR_CASES",
+    "operator" : "GTE",
+    "threshold" : "2",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 20,
+    "suggestion" : "同类业绩不足，建议补充联合体或分包业绩",
+    "description" : "近三年同类招商/运营/品牌顾问项目数量。"
+  }, {
+    "code" : "Q05",
+    "name" : "核心资质/备案",
+    "category" : "主体资格",
+    "field" : "QUALIFICATION_KEYWORDS",
+    "operator" : "CONTAINS",
+    "threshold" : "招商运营|房地产经纪|产业园区运营",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 10,
+    "suggestion" : "缺少关键资质或备案，需补齐后再投标",
+    "description" : "满足任一关键词即视为具备核心资质。"
+  }, {
+    "code" : "Q06",
+    "name" : "团队规模",
+    "category" : "团队能力",
+    "field" : "TEAM_SIZE",
+    "operator" : "GTE",
+    "threshold" : "10",
+    "mandatory" : false,
+    "enabled" : true,
+    "weight" : 5,
+    "suggestion" : "团队配置偏少，需补充驻场人员",
+    "description" : "可投入本项目的专职人员数量。"
+  }, {
+    "code" : "Q07",
+    "name" : "保证金能力",
+    "category" : "商务履约",
+    "field" : "BID_BOND",
+    "operator" : "IS_TRUE",
+    "threshold" : "true",
+    "mandatory" : false,
+    "enabled" : true,
+    "weight" : 5,
+    "suggestion" : "保证金资金未落实，需提前调度或申请保函",
+    "description" : "是否可在截止前足额缴纳投标保证金。"
+  }, {
+    "code" : "Q08",
+    "name" : "失信/黑名单",
+    "category" : "信用合规",
+    "field" : "BLACKLIST",
+    "operator" : "IS_FALSE",
+    "threshold" : "false",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 15,
+    "suggestion" : "存在失信记录，一票否决",
+    "description" : "信用中国、政府采购网等渠道核查结果。"
+  }, {
+    "code" : "Q09",
+    "name" : "关联关系",
+    "category" : "信用合规",
+    "field" : "CONFLICT",
+    "operator" : "IS_FALSE",
+    "threshold" : "false",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 5,
+    "suggestion" : "存在利益冲突，需回避或取得招标人书面同意",
+    "description" : "与招标人、代理机构是否存在关联关系。"
+  }, {
+    "code" : "Q10",
+    "name" : "投标准备时间",
+    "category" : "时间要求",
+    "field" : "DEADLINE_DAYS",
+    "operator" : "GTE",
+    "threshold" : "3",
+    "mandatory" : true,
+    "enabled" : true,
+    "weight" : 5,
+    "suggestion" : "距投标截止不足 3 天，存在制作与盖章风险",
+    "description" : "按自然日计算；不足 3 天原则上不接新标。"
+  } ],
+  "audits" : [ {
+    "id" : "AL9cbd88d55bac",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "PROJECT_CREATE",
+    "actionLabel" : "创建项目",
+    "detail" : "创建投标项目：电建中储泛悦城市广场 T2 写字楼招商代理服务，预算 480 万元",
+    "createdAt" : "2026-10-26 11:38:41"
+  }, {
+    "id" : "AL7f4b35864ae6",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "QUALIFICATION_CHECK",
+    "actionLabel" : "资格预审",
+    "detail" : "预审通过，得分 100，结论 PASS",
+    "createdAt" : "2026-10-26 11:38:41"
+  }, {
+    "id" : "ALbfa4f687438f",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "EXTRACT",
+    "actionLabel" : "招标要素抽取",
+    "detail" : "抽取要素 18 项，硬性要求 10 项；无异常",
+    "createdAt" : "2026-10-26 11:38:41"
+  }, {
+    "id" : "AL3d86152d7163",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "MATCH_PRICE",
+    "actionLabel" : "资质匹配与报价测算",
+    "detail" : "匹配得分 98（强烈建议），建议报价 441.60 万元，毛利率 88.19%",
+    "createdAt" : "2026-10-26 11:38:41"
+  }, {
+    "id" : "AL03a446b0acf5",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "AI_DRAFT",
+    "actionLabel" : "AI生成标书初稿",
+    "detail" : "生成标书初稿，供应商 local-template，模型 local-template-v1，耗时 3ms",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "ALf38cc0df077c",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "SUBMIT_REVIEW",
+    "actionLabel" : "提交人工复核",
+    "detail" : "提交人工复核，当前为第 1 轮",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL4e87d90f4cd1",
+    "projectId" : "P1792985922031",
+    "projectCode" : "BP20261026-002",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "PROJECT_CREATE",
+    "actionLabel" : "创建项目",
+    "detail" : "创建投标项目：仙林万达茂文旅商业综合体招商运营服务，预算 860 万元",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL5aa26cf43e7a",
+    "projectId" : "P1792985922031",
+    "projectCode" : "BP20261026-002",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "QUALIFICATION_CHECK",
+    "actionLabel" : "资格预审",
+    "detail" : "预审通过，得分 100，结论 PASS",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL26abc7e695b2",
+    "projectId" : "P1792985922031",
+    "projectCode" : "BP20261026-002",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "EXTRACT",
+    "actionLabel" : "招标要素抽取",
+    "detail" : "抽取要素 18 项，硬性要求 10 项；无异常",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL3d71fa376702",
+    "projectId" : "P1792985922076",
+    "projectCode" : "BP20261026-003",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "PROJECT_CREATE",
+    "actionLabel" : "创建项目",
+    "detail" : "创建投标项目：鼓楼滨江 U-LIVE 商办载体产业招商服务，预算 360 万元",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL00ef076ef92d",
+    "projectId" : "P1792985922076",
+    "projectCode" : "BP20261026-003",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "AUTO_REJECT",
+    "actionLabel" : "资格不满足自动驳回",
+    "detail" : "资格预审不满足 4 项必填条件，系统自动驳回：注册资本：注册资本不足，建议联合体投标或调整标的；信用等级：信用等级不满足，需提供信用修复或补充担保；同类项目业绩：同类业绩不足，建议补充联合体或分包业绩；核心资质/备案：缺少关键资质或备案，需补齐后再投标",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL194ac362534b",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "PROJECT_CREATE",
+    "actionLabel" : "创建项目",
+    "detail" : "创建投标项目：壹城数字经济创意园品牌顾问服务，预算 320 万元",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL620966631b4c",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "QUALIFICATION_CHECK",
+    "actionLabel" : "资格预审",
+    "detail" : "预审通过，得分 100，结论 PASS",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "ALe1639b1ecb4f",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "EXTRACT",
+    "actionLabel" : "招标要素抽取",
+    "detail" : "抽取要素 18 项，硬性要求 10 项；无异常",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL105129844071",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "MATCH_PRICE",
+    "actionLabel" : "资质匹配与报价测算",
+    "detail" : "匹配得分 98（强烈建议），建议报价 294.40 万元，毛利率 87.51%",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL76d4dadfe4a0",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "AI_DRAFT",
+    "actionLabel" : "AI生成标书初稿",
+    "detail" : "生成标书初稿，供应商 local-template，模型 local-template-v1，耗时 0ms",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL2fdfe695a744",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "SUBMIT_REVIEW",
+    "actionLabel" : "提交人工复核",
+    "detail" : "提交人工复核，当前为第 1 轮",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL6daebebefb67",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U003",
+    "actorName" : "reviewer",
+    "actorRole" : "REVIEWER",
+    "action" : "REVIEW_APPROVE",
+    "actionLabel" : "人工复核通过",
+    "detail" : "第 1 轮复核：通过；意见：方案结构完整，品牌策略与产业定位匹配，报价在预算范围内，同意投标。",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL93063c51405a",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "SUBMIT",
+    "actionLabel" : "提交投标",
+    "detail" : "提交投标，方式：电子招投标平台，回执号：NJGGZY-2026-0921-018",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "ALc003137dc715",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "ARCHIVE",
+    "actionLabel" : "项目归档",
+    "detail" : "项目归档，档号：ARC-BP20261026-004，保存 10 年",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL412dd0a6113e",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "PROJECT_CREATE",
+    "actionLabel" : "创建项目",
+    "detail" : "创建投标项目：中信泰富总部办公载体招商代理服务，预算 520 万元",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL3813a978cf03",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "QUALIFICATION_CHECK",
+    "actionLabel" : "资格预审",
+    "detail" : "预审通过，得分 100，结论 PASS",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "ALb383d62790fa",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "EXTRACT",
+    "actionLabel" : "招标要素抽取",
+    "detail" : "抽取要素 18 项，硬性要求 10 项；无异常",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL444ea4312c4e",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "MATCH_PRICE",
+    "actionLabel" : "资质匹配与报价测算",
+    "detail" : "匹配得分 98（强烈建议），建议报价 478.40 万元，毛利率 88.83%",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL66c2861f6b1e",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "AI_DRAFT",
+    "actionLabel" : "AI生成标书初稿",
+    "detail" : "生成标书初稿，供应商 local-template，模型 local-template-v1，耗时 0ms",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "ALb8fef2a7fc15",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "SUBMIT_REVIEW",
+    "actionLabel" : "提交人工复核",
+    "detail" : "提交人工复核，当前为第 1 轮",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL867f92e987a7",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "actorId" : "U003",
+    "actorName" : "reviewer",
+    "actorRole" : "REVIEWER",
+    "action" : "REVIEW_RETURN",
+    "actionLabel" : "人工复核退回",
+    "detail" : "第 1 轮复核：退回修改；意见：技术标缺少针对文旅商业资源的去化举措，首年去化目标缺少分月拆解，请补充后重新提交。",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "AL0061b35e1416",
+    "projectId" : "P1792985922305",
+    "projectCode" : "BP20261026-006",
+    "actorId" : "U002",
+    "actorName" : "manager",
+    "actorRole" : "BID_MANAGER",
+    "action" : "PROJECT_CREATE",
+    "actionLabel" : "创建项目",
+    "detail" : "创建投标项目：幕府创新区产业载体招商推介服务，预算 260 万元",
+    "createdAt" : "2026-10-26 11:38:42"
+  } ],
+  "notifications" : [ {
+    "id" : "N23c3c4c91ec3",
+    "userId" : "U001",
+    "type" : "REVIEW_TASK",
+    "title" : "新的待复核项目",
+    "content" : "《电建中储泛悦城市广场 T2 写字楼招商代理服务》已提交复核，请在截止前完成审核。",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "link" : "/projects/P1792985921891",
+    "read" : false,
+    "dedupeKey" : "review:P1792985921891:6:U001",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "Nbf653e3c54df",
+    "userId" : "U003",
+    "type" : "REVIEW_TASK",
+    "title" : "新的待复核项目",
+    "content" : "《电建中储泛悦城市广场 T2 写字楼招商代理服务》已提交复核，请在截止前完成审核。",
+    "projectId" : "P1792985921891",
+    "projectCode" : "BP20261026-001",
+    "link" : "/projects/P1792985921891",
+    "read" : false,
+    "dedupeKey" : "review:P1792985921891:6:U003",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "N39ec36ea020a",
+    "userId" : "U001",
+    "type" : "REVIEW_TASK",
+    "title" : "新的待复核项目",
+    "content" : "《壹城数字经济创意园品牌顾问服务》已提交复核，请在截止前完成审核。",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "link" : "/projects/P1792985922104",
+    "read" : true,
+    "dedupeKey" : "review:P1792985922104:6:U001",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "N411330ce66f4",
+    "userId" : "U003",
+    "type" : "REVIEW_TASK",
+    "title" : "新的待复核项目",
+    "content" : "《壹城数字经济创意园品牌顾问服务》已提交复核，请在截止前完成审核。",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "link" : "/projects/P1792985922104",
+    "read" : true,
+    "dedupeKey" : "review:P1792985922104:6:U003",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "Na10409bc3078",
+    "userId" : "U002",
+    "type" : "REVIEW_RESULT",
+    "title" : "复核通过",
+    "content" : "《壹城数字经济创意园品牌顾问服务》已通过复核，可提交投标。",
+    "projectId" : "P1792985922104",
+    "projectCode" : "BP20261026-004",
+    "link" : "/projects/P1792985922104",
+    "read" : false,
+    "dedupeKey" : "review-result:P1792985922104:7:U002",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "N331208b72fc6",
+    "userId" : "U001",
+    "type" : "REVIEW_TASK",
+    "title" : "新的待复核项目",
+    "content" : "《中信泰富总部办公载体招商代理服务》已提交复核，请在截止前完成审核。",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "link" : "/projects/P1792985922224",
+    "read" : true,
+    "dedupeKey" : "review:P1792985922224:6:U001",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "Nc629496be17c",
+    "userId" : "U003",
+    "type" : "REVIEW_TASK",
+    "title" : "新的待复核项目",
+    "content" : "《中信泰富总部办公载体招商代理服务》已提交复核，请在截止前完成审核。",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "link" : "/projects/P1792985922224",
+    "read" : true,
+    "dedupeKey" : "review:P1792985922224:6:U003",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "N5152da2eaadf",
+    "userId" : "U002",
+    "type" : "REVIEW_RESULT",
+    "title" : "复核退回",
+    "content" : "《中信泰富总部办公载体招商代理服务》被退回：技术标缺少针对文旅商业资源的去化举措，首年去化目标缺少分月拆解，请补充后重新提交。",
+    "projectId" : "P1792985922224",
+    "projectCode" : "BP20261026-005",
+    "link" : "/projects/P1792985922224",
+    "read" : false,
+    "dedupeKey" : "review-result:P1792985922224:7:U002",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "Ne736b9ef4d6b",
+    "userId" : "U001",
+    "type" : "SYSTEM",
+    "title" : "欢迎使用招商智投",
+    "content" : "个人中心已上线：可修改昵称、头像、密码与通知偏好。",
+    "read" : false,
+    "dedupeKey" : "seed-welcome-admin",
+    "createdAt" : "2026-10-26 11:38:42"
+  }, {
+    "id" : "Nd7a921da41e3",
+    "userId" : "U004",
+    "type" : "SYSTEM",
+    "title" : "只读观察员账号已开通",
+    "content" : "您可以查看已通过、已提交与已归档项目，但不能编辑或推进流程。",
+    "read" : false,
+    "dedupeKey" : "seed-welcome-viewer",
+    "createdAt" : "2026-10-26 11:38:42"
+  } ],
+  "sequences" : {
+    "project-20261026" : 6
+  }
+}

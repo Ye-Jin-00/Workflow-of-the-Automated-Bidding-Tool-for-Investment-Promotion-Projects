@@ -1,0 +1,23 @@
+# build / cache
+.build/
+.preview/
+.pylibs/
+.piptmp/
+**/target/
+**/node_modules/
+**/dist/
+**/.vite/
+*.log
+
+# runtime data tmp
+backend/data/*.tmp
+backend/data/db.json.tmp
+backend/data/avatars/
+backend/data/uploads/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
